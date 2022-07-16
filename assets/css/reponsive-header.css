@@ -1,0 +1,74 @@
+#checkTap{
+	display: none;
+}
+/* header */
+@media (max-width: 1200px) {
+    #checkTap{
+        display: none;
+    }
+    
+    .rh-0{
+        display: none !important;
+    }
+    .wheaderTop-btn li{
+        display: none !important;
+    }
+    .wheaderTop-logo{
+        margin-left: 20px !important;
+    }
+    .Header__tog{
+        display: block !important;
+        margin-right: 20px;
+        
+    }
+    #checkTap:checked ~ .wheaderTop-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        height: 100%;
+        right: 0px;
+        width: 45%;
+        margin: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 110;
+        color: black;
+        
+    }
+    #checkTap:checked ~ .wheaderTop-btn li{
+        
+        display: block !important;
+        margin: 5px;
+        flex-direction: column;
+        color: black;
+    }
+    .Header__sidebar{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 100;
+        display: none;
+        background-color: #0000007a;
+    
+    }
+    #checkTap:checked ~ .Header__sidebar{
+        display: block !important;
+    }
+    .wheaderTopOption{
+        
+        width: 40%;
+      
+    }
+    .wheaderTopOption span{
+        display: none;
+    }
+    .wheaderTop-btn--border.--color--fff{
+        color: black !important;
+        border: 0;
+    }
+    
+}
+
