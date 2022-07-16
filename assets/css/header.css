@@ -38,6 +38,10 @@ li{
     display: flex;
     flex: 1;
     margin: 0;
+    align-items: center;
+}
+.wheaderTop-logo img{
+    margin-right: 15px;
 
 }
 .wheaderTop-btn{
