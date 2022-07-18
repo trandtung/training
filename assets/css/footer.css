@@ -29,6 +29,7 @@ button{
 }
 .widgets-wrap-item{
     min-height: 650px;
+    padding: 50px 0;
 }
 .widgets-wrap-col--ct ,.widgets-wrap-col--contact{
     width: 100%;
@@ -73,6 +74,11 @@ ul li i{
 .footer h2{
     color: #feffff;
     margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #feffff;
+    font-weight: 700;
+    font-family: "Montserrat";
 }
 .border-bt{
     padding-bottom: 20px;
@@ -101,6 +107,7 @@ ul li i{
     padding: 20px 0 20px 0;
 }
 .widgets-wrap-col{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content:space-between
@@ -274,8 +281,14 @@ input ,button{
     
     /* z-index: 10; */
 }
+.round{
+    cursor: pointer;
+}
 
 /* social */
+.menuSocials{
+    min-height: 100px;
+}
 .menuSocials-wrap{
     min-height: 100px;
     margin: auto;
@@ -293,13 +306,14 @@ input ,button{
 .menuSocials-wrap--row{
     width: 100%;
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 }
 .menuSocials-wrap--cooperate{
     display: flex;
     justify-content: flex-end;
-    min-width: 100px;
+    
 }
 .menuSocials-wrap--cooperate span
 {

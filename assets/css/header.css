@@ -8,21 +8,39 @@ li{
     font-family: ;
     src: url();
 } */
+@font-face{
+    font-family: Montserrat;
+    src: url('/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2');
+}
+@font-face{
+    font-family: Montserrat1;
+    src: url('/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2');
+}
+@font-face{
+    font-family: Source Sans Pro;
+    src: url('/assets/font-text/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2');
+}
+@font-face{
+    font-family: Montserra3;
+    src: url('/assets/font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2');
+}
 .wrapper{
+    box-sizing: border-box;
     min-height: 2000px;
     width: 100%;
     color: #fff;
-
+    
 }
 .header{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    /* min-height: 100vh; */
+    min-height: 750px;
     background-color: #2c2e3d;
 }
 .wheader{
     position: relative;
     max-width: 1200px;
-    height: 100%;
+    min-height: 750px;
     margin: auto;
 }
 .wheaderTop{
@@ -43,6 +61,16 @@ li{
 .wheaderTop-logo img{
     margin-right: 15px;
 
+    
+}
+.wheaderTop-logo span{
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
 }
 .wheaderTop-btn{
     display: flex;
@@ -58,7 +86,7 @@ li{
 }
 .wheaderTop-btn--border:hover{
     
-    border: 3px solid #03b3ca;
+    border: 2px solid #03b3ca;
 }
 .--color--fff{
     color: #fff !important;
@@ -68,9 +96,11 @@ li{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    font-size: 14px;
     color: #99a9b5;
     font-weight: 700;
     font-family: "Montserrat";
+    text-align: right;
 }
 .wheaderTop-btn li:hover{
     color: #03b3ca !important;
@@ -91,7 +121,7 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 70%;
+    min-height: 650px;
     margin: auto;
 
 }
@@ -104,8 +134,34 @@ li{
     /* align-items: center; */
 }
 .wheaderBottom-text{
-    width: 80%;
+    width: 90%;
+    
+    /* width: 1092px; */
+    /* height: 79px; */
+    font-size: 24px;
+    line-height: 37px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
     text-align: center;
+}
+.wheaderBottom-title{
+    font-size: 70px;
+    letter-spacing: 4px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+
+ 
+}
+.wheaderBottom-title--ws{
+    font-weight:0;
+}
+.wheaderBottom-title--wl{
+    font-weight: 700;
 }  
 /*  */
 .arrow{
@@ -133,7 +189,7 @@ li{
 /*  */
 .wheaderBottom-btn{
     display: flex;
-
+    margin: 20px 0;
 }
 button + button{
     margin-left: 10px;
@@ -141,7 +197,7 @@ button + button{
 .wheaderBottom-btn button{
     background-color: transparent;
     min-width: 13rem;
-    font-size: 1.5rem;
+   
     color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
@@ -152,6 +208,12 @@ button + button{
     justify-content: center;
     text-transform: uppercase;
     font-size: 1rem;
+
+    font-size: 19px;
+    letter-spacing: 1px;
+   
+    font-weight: 700;
+    font-family: "Montserrat";
     
 }
 .wheaderBottom-btn button:hover {
@@ -162,7 +224,7 @@ button + button{
     position: absolute;
     
     left: 50%;
-    top: 90%;
+    bottom: 10px;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -199,21 +261,29 @@ button + button{
 }
 .wrapSection1{
     max-width: 100%;
-    min-height: 50vh;
+    
+    color: #212331;
+    text-align: center;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    color: #212331;
-    
+    margin: 20px 0;
 }
 .wrapSection1-descripstion{
     
-    width: 100%;
+    max-width: 100%;
+    
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5f727f;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
 }
 .wrapSection1 p{
     text-align: left;

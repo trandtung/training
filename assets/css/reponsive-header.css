@@ -70,5 +70,16 @@
         border: 0;
     }
     
-}
+    /* reponr footer */
+    .menuSocials-wrap--row{
+        display: flex;
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap-reverse; */
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+} 
+
+
 

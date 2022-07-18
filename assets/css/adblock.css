@@ -1,6 +1,6 @@
 .adblock{
     width: 100%;
-    min-height: 980px;
+    min-height: 900px;
     background-color: #494b58;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 .wrap-adblock-item{
     max-width: 1200px;
-    min-height: 800px;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -47,6 +47,11 @@
 
 }
 .wrap-adblock-item--btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 54px;
