@@ -16,7 +16,7 @@
 }
 .wrap-adblock-item--logo{
     width: 80px;
-    height: 80px;
+    min-height: 80px;
     border-radius: 50%;
     border: 6px solid #acab67;
     display: flex;
@@ -26,7 +26,7 @@
 .wrap-adblock-item--title{
     font-size: 100px;
     letter-spacing: 5px;
-    line-height: 50px;
+    
     color: #ececed;
     font-weight: 300;
     font-family: "Montserrat";

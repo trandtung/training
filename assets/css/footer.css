@@ -48,6 +48,8 @@ button{
     align-items: center;
     min-height: 650px;
     color: #99a9b5;
+    align-items: inherit;
+    margin-bottom: 50px;
 }
 .trig-box{
     display: flex;
@@ -300,8 +302,21 @@ input ,button{
 }
 .menuSocials ul {
     display: flex;
-    width: 40%; 
-    justify-content: space-between;
+    
+}
+.menuSocials ul li{
+    padding: 0 21px;
+    position: relative;
+}
+.menuSocials-wrap--row li+li:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    font-size: 0;
+    border-right: 1px solid #333146;
 }
 .menuSocials-wrap--row{
     width: 100%;
@@ -331,6 +346,9 @@ input ,button{
     background-color: #161723;
     color: #909fac;
 }
+/* .scroll-arrowup i{
+    color: #fff;
+} */
 .scroll-arrowup:hover{
     color: #feffff;
 }

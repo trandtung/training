@@ -15,6 +15,7 @@
     }
     .wheaderTop-logo{
         margin-left: 20px !important;
+        min-width: 180px;
     }
     .Header__tog{
         display: block !important;
@@ -38,7 +39,7 @@
     }
     #checkTap:checked ~ .wheaderTop-btn li{
         
-        display: block !important;
+        display: flex !important;
         margin: 5px;
         flex-direction: column;
         color: black;
@@ -58,7 +59,7 @@
         display: block !important;
     }
     .wheaderTopOption{
-        
+        display: none;
         width: 40%;
       
     }

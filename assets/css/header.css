@@ -45,7 +45,7 @@ li{
 }
 .wheaderTop{
     font-size: 1rem;
-    height:13%;
+    min-height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -165,8 +165,9 @@ li{
 }  
 /*  */
 .arrow{
+    cursor: pointer;
     font-size: 1.5rem;
-
+    
     color: #fff;
 }
 .arrow-left{
@@ -174,6 +175,7 @@ li{
     position: absolute;
     padding: 15px;
     top: 50%;
+    z-index: 100;
 }
 .arrow-right{
     background-color: #212331;
@@ -181,6 +183,7 @@ li{
     padding: 15px;
     top: 50%;
     right: 0px;
+    z-index: 100;
 }
 .arrow :hover{
     background-color: #00bcd4;
@@ -189,15 +192,15 @@ li{
 /*  */
 .wheaderBottom-btn{
     display: flex;
-    margin: 20px 0;
+    /* margin: 20px 5px; */
+    margin-bottom: 50px;
+    
 }
-button + button{
-    margin-left: 10px;
-}
+
 .wheaderBottom-btn button{
     background-color: transparent;
     min-width: 13rem;
-   
+    margin: 0 5px;
     color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
