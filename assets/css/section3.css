@@ -14,6 +14,9 @@
     align-items: center;
     
 }
+.section3 p{
+    text-align: center;
+}
 .wraps3{
     
     width: 1200px;
@@ -31,7 +34,7 @@
     padding-top: 50px;
     
     /* background-color: #ffcd37; */
-    justify-content: space-between;
+    justify-content: center;
     
 }
 

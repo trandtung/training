@@ -198,7 +198,7 @@ ul li i{
     flex-wrap: wrap;
 }
 .box{
-    width: 86.6px;
+    width: 30%;
     height: 86.6px;
     background-color: #99a9b5;
 }
@@ -354,4 +354,60 @@ input ,button{
 }
 .scroll-arrowup.scroll--active{
     display: block;
+}
+.footer .main-cl{
+    color: #00bbd3;
+}
+.main-cl{
+    color: #00bbd3;
+}
+@media (max-width: 320px) {
+
+    .multi-box{
+        width: 100%;
+        /* display:  none; */
+    }
+    .multi-box--top .box{
+        /* width: 30%;
+        height: 30%; */
+    }
+    .wrap-adblock-item--btn{
+        /* width: 60%; */
+        /* padding: 20px 0; */
+    }
+    .pad320{
+        padding: 20px 0;
+    }
+    .menuSocials ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .wrap-adblock-item--btn button{
+        
+    }
+    .menuSocials-wrap--row ul{
+       /* display: none; */
+       display: flex;
+       flex-direction: column;
+    }
+    .wrap-adblock-item--title{
+        font-size: 1 rem;
+    }
+    .wid-bottom{
+        padding-bottom: 50px;
+    }
+    .menuSocials-wrap--row li+li:before {
+        content: none;
+        /* width: 0;
+        height: 100%;
+        position: absolute;
+        left: -1px;
+        top: 0;
+        font-size: 0;
+        border-right: 1px solid #333146; */
+    }
 }

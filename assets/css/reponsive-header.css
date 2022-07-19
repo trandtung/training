@@ -80,7 +80,22 @@
         justify-content: center;
         padding: 20px 0;
     }
+}
+@media (max-width: 1024px) {
+    .wheaderBottom-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .wheaderBottom-btn button{
+        margin: 10px;
+    }
+        
 } 
-
+@media (max-width: 700px) {
+    .wheaderBottom-title {
+        font-size: 3rem;
+    }
+        
+} 
 
 

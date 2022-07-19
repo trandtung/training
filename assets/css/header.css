@@ -39,17 +39,22 @@ li{
 }
 .wheader{
     position: relative;
-    max-width: 1200px;
+    width: 100vw;
     min-height: 750px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .wheaderTop{
+    max-width: 1200px;
     font-size: 1rem;
     min-height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: auto;
     
 }
 .wheaderTop-logo{
@@ -117,7 +122,9 @@ li{
 }
 /* bottom */
 .wheaderBottom{
+    max-width: 1200px;
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -148,7 +155,7 @@ li{
 .wheaderBottom-title{
     font-size: 70px;
     letter-spacing: 4px;
-    line-height: 50px;
+    
     color: #ffffff;
     font-weight: 100;
     font-family: "Montserrat";
@@ -156,6 +163,10 @@ li{
     text-transform: uppercase;
 
  
+}
+.wrap-arrow{
+    width: 100vw;
+    position: relative;
 }
 .wheaderBottom-title--ws{
     font-weight:0;
@@ -175,6 +186,8 @@ li{
     position: absolute;
     padding: 15px;
     top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
     z-index: 100;
 }
 .arrow-right{
@@ -182,6 +195,7 @@ li{
     position: absolute;
     padding: 15px;
     top: 50%;
+    transform: translateY(-50%);
     right: 0px;
     z-index: 100;
 }
