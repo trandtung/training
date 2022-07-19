@@ -3,8 +3,6 @@
     width: 100vw;
     min-height: 950px;
     flex-direction: column;
-    /* background-color: rebeccapurple; */
-    
 }
 button{
     cursor: pointer;
@@ -37,11 +35,8 @@ button{
 }
 .widgets-wrap-col--ct li{
     padding-top: 20px;
-    
 }
-
 .widgets-wrap-col{
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -180,8 +175,6 @@ ul li i{
 /* box */
 .multi-box{
     width: 280px;
-
-    /* height: 186px; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -189,11 +182,8 @@ ul li i{
 }
 .multi-box--top{
     width: 100%;
-    /* height: 90px; */
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    /* background-color: aqua; */
     margin-bottom: 10px;
     flex-wrap: wrap;
 }
@@ -247,7 +237,6 @@ input ,button{
     overflow-wrap: break-word;
 }
 .footer input:focus{
-    /* background-color: #99a9b5; */
     outline: 1px solid #00bbd3;
 }
 .slide-bt{
@@ -278,10 +267,7 @@ input ,button{
     position: absolute;
     right: 5%;
     transform: translateY(-50%);
-    top: 40%
-    
-    
-    /* z-index: 10; */
+    top: 40%;
 }
 .round{
     cursor: pointer;
@@ -346,9 +332,6 @@ input ,button{
     background-color: #161723;
     color: #909fac;
 }
-/* .scroll-arrowup i{
-    color: #fff;
-} */
 .scroll-arrowup:hover{
     color: #feffff;
 }
@@ -365,15 +348,6 @@ input ,button{
 
     .multi-box{
         width: 100%;
-        /* display:  none; */
-    }
-    .multi-box--top .box{
-        /* width: 30%;
-        height: 30%; */
-    }
-    .wrap-adblock-item--btn{
-        /* width: 60%; */
-        /* padding: 20px 0; */
     }
     .pad320{
         padding: 20px 0;
@@ -383,11 +357,6 @@ input ,button{
         align-items: center;
         justify-content: center;
         text-align: center;
-    }
-
-
-    .wrap-adblock-item--btn button{
-        
     }
     .menuSocials-wrap--row ul{
        /* display: none; */
@@ -402,12 +371,5 @@ input ,button{
     }
     .menuSocials-wrap--row li+li:before {
         content: none;
-        /* width: 0;
-        height: 100%;
-        position: absolute;
-        left: -1px;
-        top: 0;
-        font-size: 0;
-        border-right: 1px solid #333146; */
     }
 }

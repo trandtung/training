@@ -99,4 +99,43 @@
         
 } 
 
+/* tog */
+.Header__tog{
+    display: none;
+    position: relative;
+	background-color: #00bcd4;
+	right: 20px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid var(--color-pink);
+	border-radius: 5px;
+	cursor: pointer;
+	
+
+}
+.Header__icon{
+	width: 30px;
+	height: 5px;
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: black;
+}
+.Header__icon::after , .Header__icon::before{
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 5px;
+	background-color: black
+}
+.Header__icon::after{
+
+	transform: translateY(-200%);
+}
+.Header__icon::before{
+	transform: translateY(200%);
+}
+
 

@@ -8,48 +8,35 @@
 .section3{
     min-height: 900px;
     width: 100%;
-    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .section3 p{
     text-align: center;
 }
 .wraps3{
-    
     width: 1200px;
     min-height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-   /* background-color: aliceblue; */
-  
 }
 .wrapsec3{
     width: 100%;
     min-height: 730px;
     display: flex;
     padding-top: 50px;
-    
-    /* background-color: #ffcd37; */
     justify-content: center;
-    
 }
-
-
 .colsec3{
     height: 750px;
     color: #393d50;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-  
     transition: height 1s,border 1s;
     margin-bottom: 100px;
-    
-    
 }
 .wraper-col{
     border: 1px solid #dfe5e7;
@@ -61,19 +48,16 @@
 .colsec3:hover .col-sec3-title{
     border: 1px solid #393d50;
     padding: 15px 0;
-    
 }
 
 .colsec3:hover .displaynone{
     display: block;
 }
 .col-sec3-title{
-    
     position: relative;
     width: 100%;
     height: 150px;
     display: flex  ;
-
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -93,7 +77,6 @@
     color: #00bcd4;
     font-size: 2rem;
     font-weight: 100;
-  
 }
 .con-sec3-list{
     height: 300px;
@@ -106,7 +89,6 @@
    width: 100%;
    height: 20%;
    display: flex  ;
-    
     align-items: center;
     justify-content: center;
 }
@@ -118,7 +100,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 .col-sec3-btn button{
     height: 35px;
@@ -161,7 +142,6 @@
     top: 0;
     justify-content: center;
     align-items: center;
-    
     transform: translateX(-50%) translateY(-50%);
     left: 50%
 }

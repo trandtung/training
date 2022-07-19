@@ -38,8 +38,6 @@
     text-transform: uppercase;
 }
 .wrap-adblock-item--description p{
-    
-   
     font-size: 24px;
     line-height: 37px;
     color: #ffffff;
@@ -47,14 +45,11 @@
     font-family: "Source Sans Pro";
     text-align: left;
 }
-.wrap-adblock-item--btn{
-    /* min-width: 150px; */
-}
+
 .wrap-adblock-item--btn button{
     display: flex;
     justify-content: center;
     align-items: center;
-
 
     font-size: 25px;
     letter-spacing: 1px;

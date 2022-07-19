@@ -1,0 +1,37 @@
+/* section1 */
+
+
+.section1{
+    min-height:300px ;
+    max-width: 1200px;
+    margin: auto;
+}
+.wrapSection1{
+    max-width: 100%;
+    
+    color: #212331;
+    text-align: center;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.wrapSection1-descripstion{
+    
+    max-width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5f727f;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+.wrapSection1 p{
+    text-align: left;
+}
