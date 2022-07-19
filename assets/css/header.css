@@ -38,12 +38,12 @@ li{
     background-color: #2c2e3d;
 }
 .wheader{
-    position: relative;
+    /* position: relative; */
     width: 100vw;
-    min-height: 750px;
+    min-height: 900px;
     margin: auto;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     flex-direction: column;
 }
 .wheaderTop{
@@ -165,8 +165,8 @@ li{
  
 }
 .wrap-arrow{
-    width: 100vw;
-    position: relative;
+    /* width: 100vw; */
+    /* position: relative; */
 }
 .wheaderBottom-title--ws{
     font-weight:0;
