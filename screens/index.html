@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
     <link rel="stylesheet" href="../assets/css/grid.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/reponsive-header.css">
@@ -16,6 +15,7 @@
     <link rel="stylesheet" href="../assets/css/section3.css">
     <link rel="stylesheet" href="../assets/css/adblock.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
+
   </head>
 
   <body>
@@ -53,7 +53,8 @@
                 <svg style="width: 19px; height: 13px; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"> <path fill="#012169" d="M0 0h640v480H0z"></path> <path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"></path> <path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"></path> <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"></path> <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"></path> </svg>
               </li>
               <li><i class="fa-solid fa-magnifying-glass"></i></li>
-              <li><i class="fa-solid fa-basket-shopping"></i> <span class="triangle-left"></span> <span id="box">2</span></li>
+              
+              <li class="cart"><i class="fa-solid fa-basket-shopping"></i> <span class="triangle-left"></span> <span id="box">2</span></li>
             </div>
           </ul>
           <label class="Header__tog" for="checkTap">
@@ -77,66 +78,32 @@
             <button>more details</button> 
           </div>
 
-          <div class="slide">
-            <span class="round active-slide"> </span>
-            <span class="round"> </span>
-            <span class="round"> </span>
-          </div>
+          <div class="pagination">
+            <span class="dot active-dot"> </span>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
         </div>
       </div>
     </header>
     <div class="container">
-      <div class="section1 m-10">
-        <div class="wrapSection1 row">
-          <h2>
-            <span>Lorem</span>
-            <span>ipsum</span>   
-          </h2>
-          <p class="wrapSection1-descripstion  c-10 c-o-1">
+      <div class="description  ">
+        <div class="wrapdescription m-10 m-o-1 c-10 c-o-1">
+          <p class="aline-ct">
+            <span class="lorem-text">Lorem</span>
+            <span class="ipsum-text">ipsum</span>   
+          </p>
+          <p class="wrapdescription-descripstion ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
           </p>
         </div>
       </div>
 
-      <div class="section3">
+      <div class="products">
         <div class="wraps3 grid wide ">
           <div class="wrapsec3 row m-10 c-10 ">
             <div class="colsec3 col l-4-ex m-5 c-12">
               <div class="wraper-col">
                 <div class="col-sec3-title">
-                  <h2 class="uppercase">
-                    beginner
-                  </h2>
-                  <div class="col-sec3-price">
-                    <span>$99</span>
-                    <span>Per month</span>
-                  </div>
-                  <p class="displaynone">The best price,quality plan</p>
-                </div>
-                <div class="col-sec3-sub">
-                  <h2 class="">
-                    Subtiitle goes here
-                  </h2>
-                  <p>
-                    Subtitle second line goes here lorem ipsum
-                  </p>
-                </div>
-                <ul class="con-sec3-list">
-                  <li class="con-sec3-list__color">Drop out  reman husle</li>
-                  <li>Drop out reman husle sdasa sdJJ</li>
-                  <li class="con-sec3-list__color">Drop out  reman husle  fsfa</li>
-                  <li class="line-thought"> Drop out  reman husleffffffffffffz</li>
-                  <li class="con-sec3-list__color">Drop out  reman husle</li>
-                </ul>
-                
-                <div class="col-sec3-btn">
-                  <button class=""><span class="triangle-sec3"></span>Order</button>
-                </div>
-              </div>
-            </div>
-            <div class="colsec3 col l-4-ex m-5 c-12">
-              <div class="wraper-col">
-                <div class="col-sec3-title">
                   <span class="new-sec3">new</span>
                   <h2 class="uppercase">
                     beginner
@@ -145,7 +112,7 @@
                     <span>$99</span>
                     <span>Per month</span>
                   </div>
-                  <p class="displaynone">The best price,quality plan</p>
+                  <!-- <p class="displaynone">The best price,quality plan</p> -->
                 </div>
                 <div class="col-sec3-sub">
                   <h2 class="">
@@ -155,7 +122,6 @@
                     Subtitle second line goes here lorem ipsum
                   </p>
                 </div>
-                
                 <ul class="con-sec3-list">
                   <li class="con-sec3-list__color">Drop out  reman husle</li>
                   <li>Drop out reman husle sdasa sdJJ</li>
@@ -164,14 +130,14 @@
                   <li class="con-sec3-list__color">Drop out  reman husle</li>
                 </ul>
                 <div class="col-sec3-btn">
-                  <button class=""><span class="triangle-sec3"></span>Order</button>
+                  <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
                 </div>
               </div>
             </div>
             <div class="colsec3 col l-4-ex m-5 c-12">
               <div class="wraper-col">
                 <div class="col-sec3-title">
-                  <span class="new-sec3">new</span>
+                  
                   <h2 class="uppercase">
                     beginner
                   </h2>
@@ -197,7 +163,40 @@
                   <li class="con-sec3-list__color">Drop out  reman husle</li>
                 </ul>
                 <div class="col-sec3-btn">
-                  <button class=""><span class="triangle-sec3"></span>Order</button>
+                  <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="colsec3 col l-4-ex m-5 c-12">
+              <div class="wraper-col">
+                <div class="col-sec3-title">
+                  <span class="new-sec3">new</span>
+                  <h2 class="uppercase font-mon">
+                    beginner
+                  </h2>
+                  <div class="col-sec3-price font-price">
+                    <span>$99</span>
+                    <span class="cl99a9b5">Per month</span>
+                  </div>
+                  <p class="displaynone cl99a9b5">The best price,quality plan</p>
+                </div>
+                <div class="col-sec3-sub">
+                  <h2 class="">
+                    Subtiitle goes here
+                  </h2>
+                  <p>
+                    Subtitle second line goes here lorem ipsum
+                  </p>
+                </div>
+                <ul class="con-sec3-list">
+                  <li class="con-sec3-list__color">Drop out  reman husle</li>
+                  <li>Drop out reman husle sdasa sdJJ</li>
+                  <li class="con-sec3-list__color">Drop out  reman husle  fsfa</li>
+                  <li class="line-thought"> Drop out  reman husleffffffffffffz</li>
+                  <li class="con-sec3-list__color">Drop out  reman husle</li>
+                </ul>
+                <div class="col-sec3-btn">
+                  <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
                 </div>
               </div>
             </div>
@@ -206,11 +205,11 @@
     </div>
   </div>
     <div class="adblock">
-      <div class="wrap-adblock-item row c-10 c-o-1" >
+      <div class="wrap-adblock-item m-10 c-10" >
         <div class="wrap-adblock-item--logo ">
-          <h2>
-            <i class="fa-regular fa-khanda"></i>
-          </h2>
+          <span>
+            <i class='far fa-sword fa-9x' style='color:#029acf'></i>
+          </span>
         </div>
         <div class="wrap-adblock-item--title row">
           <p class="pad320">ad block</p>
@@ -225,12 +224,16 @@
     </div>
     <div class="footer">
       <div class="widgets">
-          <div class="widgets-wrap grid wide">
+          <div class="widgets-wrap grid ">
             <div class="widgets-wrap-item row  ">
-              <div class="widgets-wrap-col col l-3  c-8 c-o-2 ">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1 ">
                 <div class="widgets-wrap-col--thegem flex1">
-                  <div>
-                    <h2><Span>The gem</Span></h2>
+                  <div class="widgets-wrap-col--thegem_logo">
+                    <img src="../assets/image/Logo.png" alt="">
+                    <div class="company">
+                      <p class="comp_first comp">The</p>
+                      <p class="comp_last comp">gem</p>
+                    </div>
                   </div>
                   <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed od</p>
                 </div>
@@ -240,7 +243,7 @@
                     <h2 class="trig-text">Contact</h2>
                      <div class="trig-bottomleft"></div>
                   </div>
-                  <p><i class="fa-solid fa-location-dot"></i> address</p>
+                  <p><i class="fa-solid fa-location-dot"></i>Address</p>
                   <p>New Hampshire Avenue Northwest #100, Washington, DC 20037, United States</p>
                 </div>
                 <ul class="widgets-wrap-col--ct flex1"> 
@@ -250,7 +253,7 @@
                   <li><i class="fa-solid fa-globe"></i>Website:</li>
                 </ul>
               </div>
-              <div class="widgets-wrap-col col l-3  c-10 c-o-2">
+              <div class="widgets-wrap-col col l-3 m-5 c-o-1 c-10 ">
                 <div class="widgets-wrap-col2--recen ">
                   <div class="widgets-wrap-col--thegem">
                     <div class="trig-box">
@@ -297,7 +300,7 @@
                   </div>
                 </div>
               </div>
-              <div class="widgets-wrap-col col l-3  c-8 c-o-2 ">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1 ">
                 <div class="widgets-wrap-col--thegem flex1 input--thegem">
                   <div class="trig-box">
                     <h2>EMAIL US</h2>
@@ -320,25 +323,25 @@
                   <div class="widgets-wrap-col--contact flex1">
                     <div class="multi-box">
                       <div class="multi-box--top">
-                        <p class="box"></p>
-                        <p class="box"></p>
-                        <p class="box"></p>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
                       </div>
                       <div class="multi-box--top">
-                        <p class="box"></p>
-                        <p class="box"></p>
-                        <p class="box"></p>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
                       </div>
                       <div class="slide-bt">
-                        <span class="round active-slidebt"> </span>
-                        <span class="round"> </span>
-                        <span class="round"> </span>
+                        <span class="dot active-dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="widgets-wrap-col col l-3 c-8 c-o-2">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1">
                 <div class="widgets-wrap-col--contact flex1 widgets-wrap-col--thegem">
                   
                   <div class="trig-box">
@@ -347,19 +350,19 @@
                   </div>
                   <div class="multi-box">
                     <div class="multi-box--top">
-                      <p class="box"></p>
-                      <p class="box"></p>
-                      <p class="box"></p>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
                     </div>
                     <div class="multi-box--top">
-                      <p class="box"></p>
-                      <p class="box"></p>
-                      <p class="box"></p>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
                     </div>
                     <div class="multi-box--top">
-                      <p class="box"></p>
-                      <p class="box"></p>
-                      <p class="box"></p>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
                     </div>
                   </div>
                 </div>
@@ -372,7 +375,7 @@
                   <P>Subscribe to our MailChimp newsletter and stay up to date with all events coming straight in your mailbox:</P>
                   <div class="contact-email">
                     <input type="text" placeholder="Your email">
-                    <button>></button>
+                    <button><i class="fa-solid fa-angle-right"></i></button>
                   </div>
                   <p>Personal information will be encrypted</p>
                 </div>
@@ -397,6 +400,8 @@
             <div class="menuSocials-wrap--cooperate ">
               <span><i class="fa-brands fa-twitter main-cl"></i></span>
               <span><i class="fa-brands fa-facebook-f main-cl"></i></span>
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+              <span><i class="fa-brands fa-glide-g"></i></span>
               <span><i class="fa-solid fa-camera"></i></span>
               <span><i class="fa-brands fa-youtube"></i></span>
             </div>

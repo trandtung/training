@@ -81,9 +81,42 @@ ul li i{
     padding-bottom: 20px;
     border-bottom: 2px dashed #99a9b5;
 }
-
+.widgets-wrap-col--thegem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .widgets-wrap-col--thegem h2{
     margin-bottom: 30px; 
+}
+.widgets-wrap-col--thegem_logo{
+    width: 100%;
+    /* min-height: 70px; */
+    display: flex;
+    
+}
+.widgets-wrap-col--thegem_logo img{
+    width: 60px;
+    margin-right: 10px;
+}
+.footer .company{
+    display: flex;
+    flex-direction: column;
+}
+.company .comp_first{
+    font-weight: 100;
+    
+}
+.company .comp{
+    font-size: 39px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.company .comp_last{
+    font-weight: 700;
 }
 /* col 2 */
 .widgets-wrap-col--recen{
@@ -257,7 +290,7 @@ input ,button{
     border-radius: 50%;
     cursor: pointer;
 }
-.active-slidebt{
+.active-dot{
     background-color: #00bbd3 !important;
 }
 .input__icon{
@@ -343,6 +376,18 @@ input ,button{
 }
 .main-cl{
     color: #00bbd3;
+}
+.fa-linkedin-in{
+    color: #0288d1;
+}
+.fa-glide-g{
+    color: #e54035;
+}
+.fa-youtube{
+    color: #ae0e0e;
+}
+.fa-camera{
+    color: #786f4c;
 }
 @media (max-width: 500px) {
 

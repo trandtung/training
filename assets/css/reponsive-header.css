@@ -59,13 +59,15 @@
         display: block !important;
     }
     .wheaderTopOption{
-        display: none;
-        width: 40%;
-      
+        /* display: none; */
+        width: 100%;
+        justify-content: space-around;
     }
-    .wheaderTopOption span{
-        display: none;
+    .wheaderTopOption .cart{
+        display: flex;
+        flex-direction: row !important;
     }
+    
     .wheaderTop-btn--border.--color--fff{
         color: black !important;
         border: 0;

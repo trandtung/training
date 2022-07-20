@@ -4,49 +4,56 @@
 .capitalize{
     text-transform: capitalize;
 }
-
-.section3{
-    min-height: 900px;
+.products{
+    
+    min-height: 850px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
-.section3 p{
+.products p{
     text-align: center;
 }
 .wraps3{
     width: 1200px;
-    min-height: 800px;
+    min-height: 700px;
     display: flex;
+    justify-items: flex-end;
     justify-content: center;
     align-items: center;
 }
 .wrapsec3{
+    
     width: 100%;
     min-height: 730px;
     display: flex;
     padding-top: 50px;
     justify-content: center;
+   
 }
 .colsec3{
-    height: 750px;
+    
+    min-height: 730px;
     color: #393d50;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     transition: height 1s,border 1s;
     margin-bottom: 100px;
+    
+    
 }
 .wraper-col{
     border: 1px solid #dfe5e7;
-    
+    transition: border 1s;
 }
 .colsec3:hover .wraper-col{
     border: 1px solid #393d50;
 }
 .colsec3:hover .col-sec3-title{
-    border: 1px solid #393d50;
+    /* border: 1px solid #393d50; */
     padding: 15px 0;
 }
 
@@ -63,7 +70,7 @@
     justify-content: center;
     background-color: #393d50;
     color: #00bcd4;
-    transition: padding 2s;
+    transition: padding 1s;
 }
 .col-sec3-sub{
     height: 95px;
@@ -94,7 +101,7 @@
 }
 .col-sec3-btn{
     box-sizing: border-box;
-    height: 120px;
+    height: 100px;
     width: 100%;
     display: flex  ;
     flex-direction: column;
@@ -107,20 +114,36 @@
     background-color: transparent;
     border: 3px solid #00bbd3;
     color: #00bbd3;
-    font-size: 1.5rem;
+    border-radius: 5px;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-.col-sec3-btn button:hover {
+.col-sec3-btn button:hover{
+    background-color: #00bbd3;
+    color: #fff;
+}
+.col-sec3-btn button:hover .order-text{
     background-color: #00bbd3;
     color: #fff;
 }
 .col-sec3-btn button:hover .triangle-sec3{
     
     border-left: 7px solid #fff;
+}
+.col-sec3-btn span + span{
+    margin-left: 5px;
+}
+.order-text{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #00bbd3;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
 }
 .triangle-sec3{
     box-sizing: border-box;
@@ -144,4 +167,26 @@
     align-items: center;
     transform: translateX(-50%) translateY(-50%);
     left: 50%
+}
+.fa-caret-right{
+    font-size: 15px;
+}
+.font-mon{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #00bcd4;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.font-price{
+    font-size: 24px;
+    
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+ .cl99a9b5{
+    color: #99a9b5;
 }
