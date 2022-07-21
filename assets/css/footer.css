@@ -96,7 +96,8 @@ ul li i{
     
 }
 .widgets-wrap-col--thegem_logo img{
-    width: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 .footer .company{
@@ -246,7 +247,7 @@ ul li i{
     height: 40px;
 }
 .contact-email input{
-    flex: 4;
+    flex: 5;
     height: 100%;
     background-color: #181828;
 }
@@ -294,8 +295,16 @@ input ,button{
     background-color: #00bbd3 !important;
 }
 .input__icon{
+    box-sizing: border-box;
+    
     position: relative;
-}   
+}
+.contact-email .input__icon{
+    width: 80%;
+}
+.contact-email .input__icon input{
+    width: 100%;
+}    
 .icon-mail{
     position: absolute;
     right: 5%;
@@ -305,6 +314,13 @@ input ,button{
 .round{
     cursor: pointer;
 }
+/* input[type="text"]::placeholder {  
+    padding-left: 10px; 
+} */
+.input__icon .icon-input{
+    
+    padding-left: 10px;
+} 
 
 /* social */
 .menuSocials{
@@ -323,9 +339,15 @@ input ,button{
     display: flex;
     
 }
+.menuSocials ul li a{
+    color: #99a9b5;
+    text-decoration: none;
+}
 .menuSocials ul li{
+    
     padding: 0 21px;
     position: relative;
+    cursor: pointer;
 }
 .menuSocials-wrap--row li+li:before {
     content: '';
@@ -353,6 +375,7 @@ input ,button{
 {
     margin-left: 20px;
 }
+
 
 /* sroll */
 .scroll-arrowup{
@@ -389,6 +412,9 @@ input ,button{
 .fa-camera{
     color: #786f4c;
 }
+.fa-location-dot{
+    padding-right: 10px;
+}
 @media (max-width: 500px) {
 
     .multi-box{
@@ -396,6 +422,11 @@ input ,button{
     }
     .pad320{
         padding: 20px 0;
+    }
+    .wheaderBottom-title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .menuSocials ul li{
         display: flex;
@@ -416,5 +447,8 @@ input ,button{
     }
     .menuSocials-wrap--row li+li:before {
         content: none;
+    }
+    .menuSocials-wrap--row li+li{
+        border-top: 1px solid #394050;
     }
 }

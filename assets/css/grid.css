@@ -141,6 +141,19 @@
     }
     
 }
+@media (max-width: 500px) {
+    .c-o-1-ex {
+        margin-left: 8.33333%;
+    }
+    
+    .c-o-2-ex {
+        margin-left: 16.66667%;
+    }
+    
+    .c-o-3 {
+        margin-left: 25%;
+    }
+}
 
 
 /* >= Tablet */
