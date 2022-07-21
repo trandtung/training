@@ -1,4 +1,4 @@
-html{
+/* html{
     font-size: 100%;
 }
 li{
@@ -19,10 +19,10 @@ li{
 @font-face{
     font-family: Montserra3;
     src: url('/assets/font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2');
-}
+} */
 .wrapper{
     box-sizing: border-box;
-    min-height: 2000px;
+    /* min-height: 2000px; */
     width: 100%;
     color: #fff;
 }
@@ -164,30 +164,31 @@ li{
 .arrow{
     cursor: pointer;
     font-size: 1.5rem;
-    
     color: #fff;
 }
-.arrow-left{
+.aligh-arrow{
     background-color: #212331;
     position: absolute;
-    padding: 15px;
-    top: 50%;
+    padding: 1rem;
     transform: translateY(-50%);
-    left: 0px;
     z-index: 100;
+    
 }
-.arrow-right{
-    background-color: #212331;
-    position: absolute;
-    padding: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0px;
-    z-index: 100;
-}
-.arrow :hover{
+
+.aligh-arrow:hover{
     background-color: #00bcd4;
 }
+.arrow-left{ 
+    top: 50%;
+    left: 0px;
+}
+.arrow-right{
+    top: 50%;
+    right: 0px;
+}
+/* .arrow :hover{
+    background-color: #00bcd4;
+} */
 
 /*  */
 .wheaderBottom-btn{

@@ -1,293 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>tdtung</title>
-    
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/grid.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/reponsive-header.css">
-    <link rel="stylesheet" href="../assets/css/summary.css">
-    <link rel="stylesheet" href="../assets/css/products.css">
-    <link rel="stylesheet" href="../assets/css/adblock.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
 
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/grid.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/reponsive-header.css" />
+    <link rel="stylesheet" href="../assets/css/summary.css" />
+    <link rel="stylesheet" href="../assets/css/products.css" />
+    <link rel="stylesheet" href="../assets/css/adblock.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
   </head>
 
   <body>
-   <div class="wrapper">
-    <button class="scroll-arrowup"><i class="fa-solid fa-arrow-up-long"></i></button>
-    <header class="header">
-      
-      <div class="wheader">
-        <div class="arrow">
-          <div class="arrow-left">
-            <i class="fa-solid fa-arrow-left-long"></i>
-          </div>
-          <div class="arrow-right">
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </div>
-        </div>
-        <div class="wheaderTop">
-          <div class="wheaderTop-logo">
-            <img src="/assets/image/Logo.png" alt="">
-            <span>The gem</span>
-          </div>
-          <input type="checkbox"  id="checkTap">
-          <label class="Header__sidebar" for="checkTap">
-          </label>
-          <ul class="wheaderTop-btn " >
-            <li>HOME</li>
-            <li class="wheaderTop-btn--border --color--fff">PAGES</li>
-            <li>BLOG</li>
-            <li>PORTFOLIOS</li>
-            <li>SHOP</li>
-            <li>FEATURES</li>
-            <li>ELEMENTS</li>
-            <div class="wheaderTopOption">
-              <li>
-                <svg style="width: 19px; height: 13px; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"> <path fill="#012169" d="M0 0h640v480H0z"></path> <path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"></path> <path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"></path> <path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"></path> <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"></path> </svg>
-              </li>
-              <li><i class="fa-solid fa-magnifying-glass"></i></li>
-              
-              <li class="cart"><i class="fa-solid fa-basket-shopping"></i> <span class="triangle-left"></span> <span id="box">2</span></li>
+    <div class="wrapper">
+      <button class="scroll-arrowup">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </button>
+      <header class="header">
+        <div class="wheader">
+          <div class="arrow">
+            <div class="arrow-left aligh-arrow transition">
+              <i class="fa-solid fa-arrow-left-long"></i>
             </div>
-          </ul>
-          <label class="Header__tog" for="checkTap">
-            <i class="fa-solid fa-bars"></i>
-          </label>
+            <div class="arrow-right aligh-arrow transition">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+          <div class="wheaderTop">
+            <div class="wheaderTop-logo">
+              <img src="../assets/image/Logo.png" alt="" />
+              <span>The gem</span>
+            </div>
+            <input type="checkbox" id="checkTap" />
+            <label class="Header__sidebar" for="checkTap"> </label>
+            <ul class="wheaderTop-btn">
+              <li>HOME</li>
+              <li class="wheaderTop-btn--border --color--fff">PAGES</li>
+              <li>BLOG</li>
+              <li>PORTFOLIOS</li>
+              <li>SHOP</li>
+              <li>FEATURES</li>
+              <li>ELEMENTS</li>
+              <div class="wheaderTopOption">
+                <li>
+                  <svg
+                    style="width: 19px; height: 13px; vertical-align: middle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 480"
+                  >
+                    <path fill="#012169" d="M0 0h640v480H0z"></path>
+                    <path
+                      fill="#FFF"
+                      d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"
+                    ></path>
+                    <path
+                      fill="#C8102E"
+                      d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"
+                    ></path>
+                    <path
+                      fill="#FFF"
+                      d="M241 0v480h160V0H241zM0 160v160h640V160H0z"
+                    ></path>
+                    <path
+                      fill="#C8102E"
+                      d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"
+                    ></path>
+                  </svg>
+                </li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="cart">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                  <span class="triangle-left"></span> <span id="box">2</span>
+                </li>
+              </div>
+            </ul>
+            <label class="Header__tog" for="checkTap">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+          <div class="wheaderBottom">
+            <div class="wheaderBottom-icon">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="wheaderBottom-title pad320">
+              <span class="wheaderBottom-title--ws">pricing</span>
+              <span class="wheaderBottom-title--wl">tables</span>
+            </div>
+            <div class="wheaderBottom-text pad320">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea
+              </p>
+            </div>
+            <div class="wheaderBottom-btn pad320">
+              <button>purchase now</button>
+              <button>more details</button>
+            </div>
+            <div class="pagination">
+              <span class="dot active-dot"> </span>
+              <span class="dot"> </span>
+              <span class="dot"> </span>
+            </div>
+          </div>
         </div>
-        <div class="wheaderBottom">
-          <div class="wheaderBottom-icon">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-            <i class="fa-solid fa-bars"></i>
+      </header>
+      <div class="container">
+        <div class="description">
+          <div class="wrapdescription m-10 m-o-1 c-10 c-o-1">
+            <p class="aline-ct">
+              <span class="lorem-text">Lorem</span>
+              <span class="ipsum-text">ipsum</span>
+            </p>
+            <p class="wrapdescription-descripstion">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+              ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam
+              voluptatem quia voluptas sit aspernatur aut odit aut fugit
+            </p>
           </div>
-          <div class="wheaderBottom-title pad320">
-            <span class="wheaderBottom-title--ws">pricing</span>
-            <span class="wheaderBottom-title--wl">tables</span>
+        </div>
+        <div class="products">
+          <div class="wraps3 grid wide">
+            <div class="wrapsec3 row m-10 c-10">
+              <div class="colsec3 col l-4-ex m-5 c-12">
+                <div class="wraper-col">
+                  <div class="col-sec3-title">
+                    <span class="new-sec3">new</span>
+                    <h2 class="uppercase font-mon">beginner</h2>
+                    <div class="col-sec3-price font-price">
+                      <span>$99</span>
+                      <span class="cl99a9b5">Per month</span>
+                    </div>
+                  </div>
+                  <div class="wrap_col_bottom">
+                    <div class="col-sec3-sub">
+                      <h2 class="">Subtiitle goes here</h2>
+                      <p>Subtitle second line goes here lorem ipsum</p>
+                    </div>
+                    <ul class="con-sec3-list">
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list__color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                    </ul>
+                    <div class="col-sec3-btn">
+                      <button class="">
+                        <span><i class="fa-solid fa-caret-right"></i></span
+                        ><span class="order-text">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="colsec3 col l-4-ex m-5 c-12">
+                <div class="wraper-col">
+                  <div class="col-sec3-title">
+                    <h2 class="uppercase font-mon">beginner</h2>
+                    <div class="col-sec3-price font-price">
+                      <span>$99</span>
+                      <span class="cl99a9b5">Per month</span>
+                    </div>
+                  </div>
+                  <div class="wrap_col_bottom">
+                    <div class="col-sec3-sub">
+                      <h2 class="">Subtiitle goes here</h2>
+                      <p>Subtitle second line goes here lorem ipsum</p>
+                    </div>
+                    <ul class="con-sec3-list">
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list__color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                    </ul>
+                    <div class="col-sec3-btn">
+                      <button class="">
+                        <span><i class="fa-solid fa-caret-right"></i></span
+                        ><span class="order-text">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="colsec3 col l-4-ex m-5 c-12">
+                <div class="wraper-col">
+                  <div class="col-sec3-title">
+                    <span class="new-sec3">new</span>
+                    <h2 class="uppercase font-mon">ultimate</h2>
+                    <div class="col-sec3-price font-price">
+                      <span>$99</span>
+                      <span class="cl99a9b5">Per month</span>
+                    </div>
+                    <p class="displaynone cl99a9b5">
+                      The best price,quality plan
+                    </p>
+                  </div>
+                  <div class="wrap_col_bottom">
+                    <div class="col-sec3-sub">
+                      <h2 class="">Subtiitle goes here</h2>
+                      <p>Subtitle second line goes here lorem ipsum</p>
+                    </div>
+                    <ul class="con-sec3-list">
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list__color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list__color">Drop out reman husle</li>
+                    </ul>
+                    <div class="col-sec3-btn">
+                      <button class="">
+                        <span><i class="fa-solid fa-caret-right"></i></span
+                        ><span class="order-text">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="wheaderBottom-text pad320">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+        </div>
+      </div>
+      <div class="adblock">
+        <div class="wrap-adblock-item m-10 c-10">
+          <div class="wrap-adblock-item--logo">
+            <span>
+              <i
+                class="fa-solid fa-font-awesome"
+                style="color: #acab67; font-size: 2rem"
+              ></i>
+            </span>
           </div>
-          <div class="wheaderBottom-btn pad320">
+          <div class="wrap-adblock-item--title row">
+            <p class="pad320">ad block</p>
+          </div>
+          <div class="wrap-adblock-item--description col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor,onsectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. incididunt ut labore
+              et dolore magna aliqua. onsectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.,Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum
+            </p>
+          </div>
+          <div class="wrap-adblock-item--btn pad320">
             <button>purchase now</button>
-            <button>more details</button> 
-          </div>
-          <div class="pagination">
-            <span class="dot active-dot"> </span>
-            <span class="dot"> </span>
-            <span class="dot"> </span>
-        </div>
-      </div>
-    </header>
-    <div class="container">
-      <div class="description  ">
-        <div class="wrapdescription m-10 m-o-1 c-10 c-o-1">
-          <p class="aline-ct">
-            <span class="lorem-text">Lorem</span>
-            <span class="ipsum-text">ipsum</span>   
-          </p>
-          <p class="wrapdescription-descripstion ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
-          </p>
-        </div>
-      </div>
-      <div class="products">
-        <div class="wraps3 grid wide ">
-          <div class="wrapsec3 row m-10 c-10 ">
-            <div class="colsec3 col l-4-ex m-5 c-12">
-              <div class="wraper-col">
-                <div class="col-sec3-title">
-                  <span class="new-sec3">new</span>
-                  <h2 class="uppercase font-mon">
-                    beginner
-                  </h2>
-                  <div class="col-sec3-price font-price">
-                    <span>$99</span>
-                    <span class="cl99a9b5">Per month</span>
-                  </div>
-                </div>
-                <div class="wrap_col_bottom">
-                  <div class="col-sec3-sub">
-                    <h2 class="">
-                      Subtiitle goes here
-                    </h2>
-                    <p>
-                      Subtitle second line goes here lorem ipsum
-                    </p>
-                  </div>
-                  <ul class="con-sec3-list">
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                    <li>Drop out reman husle sdasa sdJJ</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle  fsfa</li>
-                    <li class="line-thought"> Drop out  reman husleffffffffffffz</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                  </ul>
-                  <div class="col-sec3-btn">
-                    <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="colsec3 col l-4-ex m-5 c-12">
-              <div class="wraper-col">
-                <div class="col-sec3-title">
-                  
-                  <h2 class="uppercase font-mon">
-                    beginner
-                  </h2>
-                  <div class="col-sec3-price font-price">
-                    <span>$99</span>
-                    <span class="cl99a9b5">Per month</span>
-                  </div>
-                </div>
-                <div class="wrap_col_bottom">
-                  <div class="col-sec3-sub">
-                    <h2 class="">
-                      Subtiitle goes here
-                    </h2>
-                    <p>
-                      Subtitle second line goes here lorem ipsum
-                    </p>
-                  </div>
-                  <ul class="con-sec3-list">
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                    <li>Drop out reman husle sdasa sdJJ</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle  fsfa</li>
-                    <li class="line-thought"> Drop out  reman husleffffffffffffz</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                  </ul>
-                  <div class="col-sec3-btn">
-                    <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="colsec3 col l-4-ex m-5 c-12">
-              <div class="wraper-col">
-                <div class="col-sec3-title">
-                  <span class="new-sec3">new</span>
-                  <h2 class="uppercase font-mon">
-                    ultimate
-                  </h2>
-                  <div class="col-sec3-price font-price">
-                    <span>$99</span>
-                    <span class="cl99a9b5">Per month</span>
-                  </div>
-                  <p class="displaynone cl99a9b5">The best price,quality plan</p>
-                </div>
-                <div class="wrap_col_bottom">
-                  <div class="col-sec3-sub">
-                    <h2 class="">
-                      Subtiitle goes here
-                    </h2>
-                    <p>
-                      Subtitle second line goes here lorem ipsum
-                    </p>
-                  </div>
-                  <ul class="con-sec3-list">
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                    <li>Drop out reman husle sdasa sdJJ</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle  fsfa</li>
-                    <li class="line-thought"> Drop out  reman husleffffffffffffz</li>
-                    <li class="con-sec3-list__color">Drop out  reman husle</li>
-                  </ul>
-                  <div class="col-sec3-btn">
-                    <button class=""><span ><i class="fa-solid fa-caret-right"></i></span><span class="order-text">ORDER</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-    </div>
-  </div>
-    <div class="adblock">
-      <div class="wrap-adblock-item m-10 c-10" >
-        <div class="wrap-adblock-item--logo ">
-          <span>
-            <i class="fa-solid fa-font-awesome" style="color:#acab67;font-size:2rem;"></i>
-          </span>
-        </div>
-        <div class="wrap-adblock-item--title row">
-          <p class="pad320">ad block</p>
-        </div>
-        <div class="wrap-adblock-item--description col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor,onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua. onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-        </div>
-        <div class="wrap-adblock-item--btn pad320">
-          <button>purchase now</button>
-        </div>
       </div>
-    </div>
-    <div class="footer">
-      <div class="widgets">
-          <div class="widgets-wrap grid ">
-            <div class="widgets-wrap-item row  ">
-              <div class="widgets-wrap-col col l-3 m-5  c-10 c-o-1 ">
+      <div class="footer">
+        <div class="widgets">
+          <div class="widgets-wrap grid">
+            <div class="widgets-wrap-item row">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1">
                 <div class="widgets-wrap-col--thegem flex1">
                   <div class="widgets-wrap-col--thegem_logo">
-                    <img src="../assets/image/Logo.png" alt="">
+                    <img src="../assets/image/Logo.png" alt="" />
                     <div class="company">
                       <p class="comp_first comp">The</p>
                       <p class="comp_last comp">gem</p>
                     </div>
                   </div>
-                  <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed od</p>
+                  <p>
+                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum, nec sagittis sem nibh id elit. Duis sed od
+                  </p>
                 </div>
                 <div class="widgets-wrap-col--contact flex1 border-bt">
                   <div class="trig-box">
                     <h2 class="trig-text">CONTACT</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
                   <p><i class="fa-solid fa-location-dot"></i>Address</p>
-                  <p>New Hampshire Avenue Northwest #100, Washington, DC 20037, United States</p>
+                  <p>
+                    New Hampshire Avenue Northwest #100, Washington, DC 20037,
+                    United States
+                  </p>
                 </div>
-                <ul class="widgets-wrap-col--ct flex1"> 
-                  <li><i class="fa-solid fa-headphones"></i>Phone: 12479846894</li>
-                  <li> <i class="fa-regular fa-file-lines"></i>Fax: <span class="main-cl">13457789</span></li>
-                  <li> <i class="fa-regular fa-envelope"></i>Email:</li>
+                <ul class="widgets-wrap-col--ct flex1">
+                  <li>
+                    <i class="fa-solid fa-headphones"></i>Phone: 12479846894
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-file-lines"></i>Fax:
+                    <span class="main-cl">13457789</span>
+                  </li>
+                  <li><i class="fa-regular fa-envelope"></i>Email:</li>
                   <li><i class="fa-solid fa-globe"></i>Website:</li>
                 </ul>
               </div>
-              <div class="widgets-wrap-col col l-3 m-5  c-10 c-o-1-ex">
-                <div class="widgets-wrap-col2--recen ">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1-ex">
+                <div class="widgets-wrap-col2--recen">
                   <div class="widgets-wrap-col--thegem">
                     <div class="trig-box">
                       <h2>RECENT POSTS</h2>
-                       <div class="trig-bottomleft"></div>
+                      <div class="trig-bottomleft"></div>
                     </div>
                   </div>
-                  <div class="recent-item ">
+                  <div class="recent-item">
                     <div class="recent-item--cycle"></div>
-                    <div class="recent-item--desc ">
-                      <p>Proin gravida nibh vel velit auctor aliquet aenean...</p>
-                      <p class="date main-cl">27 Dec 2015 <span><i class="fa-solid fa-comments"></i> <span>0</span></span></p>
+                    <div class="recent-item--desc">
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="date main-cl">
+                        27 Dec 2015
+                        <span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>0</span></span
+                        >
+                      </p>
                     </div>
                   </div>
                   <div class="recent-item">
-                    <div class="recent-item--cycle"> </div>
+                    <div class="recent-item--cycle"></div>
                     <div class="recent-item--desc">
-                      <p>Proin gravida nibh vel velit auctor aliquet aenean...</p>
-                      <p class="date"><span class="main-cl">27 Dec 2015 </span><span><i class="fa-solid fa-comments"></i> <span>12</span></span></p>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="date">
+                        <span class="main-cl">27 Dec 2015 </span
+                        ><span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>12</span></span
+                        >
+                      </p>
                     </div>
                   </div>
                   <div class="recent-item">
-                    <div class="recent-item--cycle"> </div>
+                    <div class="recent-item--cycle"></div>
                     <div class="recent-item--desc">
-                      <p>Proin gravida nibh vel velit auctor aliquet aenean...</p>
-                      <p class="date">27 Dec 2015 <span><i class="fa-solid fa-comments"></i> <span>0</span></span></p>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="date">
+                        27 Dec 2015
+                        <span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>0</span></span
+                        >
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="wid-bottom">
                   <div class="trig-box">
                     <h2>USEFUL LINKS</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
                   <div class="widgets-wrap-col2--contact">
                     <ul class="lt_disc">
@@ -300,27 +401,44 @@
                   </div>
                 </div>
               </div>
-              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1 ">
+              <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1">
                 <div class="widgets-wrap-col--thegem flex1 input--thegem">
                   <div class="trig-box">
                     <h2>EMAIL US</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
                   <div class="input__icon">
-                    <input class="icon-input" type="text" placeholder="Your name" id="checking" ><span class="icon-mail"><i class="fa-solid fa-user-graduate"></i></span>
+                    <input
+                      class="icon-input"
+                      type="text"
+                      placeholder="Your name"
+                      id="checking"
+                    /><span class="icon-mail"
+                      ><i class="fa-solid fa-user-graduate"></i
+                    ></span>
                   </div>
                   <div class="input__icon">
-                    <input class="icon-input" type="text" placeholder="Your email" ><span class="icon-mail"><i class="fa-solid fa-envelope"></i></span>
+                    <input
+                      class="icon-input"
+                      type="text"
+                      placeholder="Your email"
+                    /><span class="icon-mail"
+                      ><i class="fa-solid fa-envelope"></i
+                    ></span>
                   </div>
                   <div class="input__icon">
-                    <input class="btn-mess icon-input" type="text" placeholder="Your message">
+                    <input
+                      class="btn-mess icon-input"
+                      type="text"
+                      placeholder="Your message"
+                    />
                   </div>
-                    <button>SEND MESSAGE</button>
+                  <button>SEND MESSAGE</button>
                 </div>
                 <div class="wid-bottom">
                   <div class="trig-box">
                     <h2>PROJECTS / CLIENTS</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
                   <div class="widgets-wrap-col--contact flex1">
                     <div class="multi-box">
@@ -344,11 +462,12 @@
                 </div>
               </div>
               <div class="widgets-wrap-col col l-3 m-5 c-10 c-o-1-ex">
-                <div class="widgets-wrap-col--contact flex1 widgets-wrap-col--thegem">
-                  
+                <div
+                  class="widgets-wrap-col--contact flex1 widgets-wrap-col--thegem"
+                >
                   <div class="trig-box">
                     <h2>FLICKR / FEED</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
                   <div class="multi-box">
                     <div class="multi-box--top">
@@ -371,12 +490,19 @@
                 <div class="wid-bottom">
                   <div class="trig-box">
                     <h2>NEWLSETTER</h2>
-                     <div class="trig-bottomleft"></div>
+                    <div class="trig-bottomleft"></div>
                   </div>
-                  <P>Subscribe to our MailChimp newsletter and stay up to date with all events coming straight in your mailbox:</P>
+                  <p>
+                    Subscribe to our MailChimp newsletter and stay up to date
+                    with all events coming straight in your mailbox:
+                  </p>
                   <div class="contact-email">
                     <div class="input__icon">
-                      <input class="btn-mess icon-input" type="text" placeholder="Your email">
+                      <input
+                        class="btn-mess icon-input"
+                        type="text"
+                        placeholder="Your email"
+                      />
                     </div>
                     <button><i class="fa-solid fa-angle-right"></i></button>
                   </div>
@@ -384,34 +510,34 @@
                 </div>
               </div>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="menuSocials">
-        <div class="menuSocials-wrap grid wide">
-          <div class="menuSocials-wrap--row">
-            <p class="menuSocials-wrap--copyright ">
-              <span class="main-cl">@Copyright 2015</span>
-              <span>CoderThemes</span>
-            </p>
-            <ul class="menuSocials-wrap--row__support">
-              <li> <a href="">Support</a></li>  
-              <li> <a href="">Contact US</a></li>            
-              <li> <a href="">DIsclaimer</a></li>  
-              <li> <a href="">Privercy Policy</a></li>  
-            </ul>
-            <div class="menuSocials-wrap--cooperate ">
-              <span><i class="fa-brands fa-twitter main-cl"></i></span>
-              <span><i class="fa-brands fa-facebook-f main-cl"></i></span>
-              <span><i class="fa-brands fa-linkedin-in"></i></span>
-              <span><i class="fa-brands fa-glide-g"></i></span>
-              <span><i class="fa-solid fa-camera"></i></span>
-              <span><i class="fa-brands fa-youtube"></i></span>
+        <div class="menuSocials">
+          <div class="menuSocials-wrap grid wide">
+            <div class="menuSocials-wrap--row">
+              <p class="menuSocials-wrap--copyright">
+                <span class="main-cl">@Copyright 2015</span>
+                <span>CoderThemes</span>
+              </p>
+              <ul class="menuSocials-wrap--row__support">
+                <li><a href="">Support</a></li>
+                <li><a href="">Contact US</a></li>
+                <li><a href="">DIsclaimer</a></li>
+                <li><a href="">Privercy Policy</a></li>
+              </ul>
+              <div class="menuSocials-wrap--cooperate">
+                <span><i class="fa-brands fa-twitter main-cl"></i></span>
+                <span><i class="fa-brands fa-facebook-f main-cl"></i></span>
+                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                <span><i class="fa-brands fa-glide-g"></i></span>
+                <span><i class="fa-solid fa-camera"></i></span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-   </div>
-   <script type="text/javascript" src="/js/scroll.js"></script>
+    <script type="text/javascript" src="/js/scroll.js"></script>
   </body>
 </html>

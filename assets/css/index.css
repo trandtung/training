@@ -1,0 +1,31 @@
+html{
+    font-size: 100%;
+}
+li{
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+.products *{
+    box-sizing: unset;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url('/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2');
+}
+@font-face{
+    font-family: Montserrat1;
+    src: url('/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2');
+}
+@font-face{
+    font-family: Source Sans Pro;
+    src: url('/assets/font-text/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2');
+}
+@font-face{
+    font-family: Montserra3;
+    src: url('/assets/font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2');
+}
+.transition{
+    transition: 0.5s linear;
+}
