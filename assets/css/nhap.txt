@@ -1,0 +1,63 @@
+wheader       wrap-header
+wheaderTop      header-menu
+wheaderTop-logo header-logo     header-menu__logo
+wheaderTop-btn  header-option   header-menu__about
+header-option
+
+wheaderBottom       header-content
+wheaderBottom-icon  header-content__icon
+wheaderBottom-title  header-content__title
+wheaderBottom-text  header-content__desc
+wheaderBottom-btn   header-content__btn
+
+
+wheaderBottom-title--ws     header-content__title--s
+wheaderBottom-title--wl     header-content__title--m
+
+
+
+s2
+wrapdescription     wrap-description
+wrap-description__title
+
+
+
+sec3
+products
+wraps3          products-wrap
+wrapsec3        products-wrap-smail
+colsec3         product-wrap-item
+wraper-col      product-item
+col-sec3-title  product-item-info
+wrap_col_bottom  product-item-detail
+
+col-sec3-price      product-item-info__price
+
+col-sec3-sub    product-item-detail__title
+con-sec3-list     product-item-detail__list  
+col-sec3-btn    product-item-detail__order
+new-sec3        new-product
+
+
+adblock
+wrap-adblock-item
+wrap-adblock-item--logo     adblock-item__logo
+wrap-adblock-item--title    adblock-item__title
+wrap-adblock-item--description      adblock-item__desc
+wrap-adblock-item--btn          adblock-item__btn
+
+
+footer
+widgets-wrap-col                widgets-column    
+widgets-wrap-col--thegem        widgets-thegem    
+widgets-wrap-col--thegem_logo   widgets-thegem__logo
+widgets-wrap-col--contact       widgets-contact
+                                   widgets-contact__title
+
+
+
+menuSocials
+menuSocials-wrap--row           menuSocials-row   
+menuSocials-wrap--copyright       menuSocials-row__copyright  
+                                        menuSocials-row__support
+menuSocials-wrap--cooperate         menuSocials-row__cooperate                                        

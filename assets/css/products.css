@@ -7,110 +7,123 @@
 .products{
     min-height: 850px;
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .products p{
     text-align: center;
     width: 95%;
 }
-.wraps3{
+.products-wrap{
     width: 1200px;
     min-height: 700px;
-    display: flex;
-    justify-items: flex-end;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    justify-items: flex-end;
 }
-.wrapsec3{
+.products-wrap-smail{
     
     width: 100%;
     min-height: 730px;
-    display: flex;
     padding-top: 50px;
+    display: flex;
     justify-content: center;
    
 }
-.colsec3{
+.product-wrap-item{
     box-sizing: border-box;
     height: 730px;
     color: #393d50;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    transition: height 1s,border 1s;
+    /* transition: height 1s,border 1s; */
     margin-bottom: 100px;
 }
-.wraper-col{
+.product-item{
     min-height: 670px;
     transition: border 1s;
 }
-.wrap_col_bottom{
+.product-item-detail{
     height: 530px !important;
     border: 1px solid #dfe5e7;
     transition: border 1s;
 }
-.colsec3:hover .wrap_col_bottom{
+.product-wrap-item:hover .product-item-detail{
     border: 1px solid #393d50;
 }
-.colsec3:hover .col-sec3-title{
-    /* border: 1px solid #393d50; */
-    padding: 15px 0;
-}
 
-.colsec3:hover .displaynone{
+.product-wrap-item:hover .displaynone{
     display: block;
 }
-.col-sec3-title{
+.product-item-info{
     position: relative;
     width: 100%;
     height: 150px;
-    display: flex  ;
-    flex-direction: column;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    flex-direction: column;
     background-color: #393d50;
-    color: #00bcd4;
-    transition: padding 1s;
+    /* color: #00bcd4; */
+    /* transition: padding 1s; */
 }
-.col-sec3-sub{
+.product-item-info--font{
+    
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #00bcd4;
+    font-weight: 300;
+}
+.font-montserrat{
+    font-family: "Montserrat";
+}
+.product-wrap-item:hover .product-item-info{
+    /* border: 1px solid #393d50; */
+    padding: 15px 0;
+}
+.product-item-detail__title{
     height: 95px;
     width: 100%;
-    display: flex  ;
     flex-direction: column;
+    /* display: flex  ;
+    
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
-.col-sec3-sub h2{
+.product-item-detail__title--font{
     color: #00bcd4;
     font-size: 2rem;
     font-weight: 100;
+    font-family: "Montserrat";
 }
-.con-sec3-list{
+.product-item-detail__list{
     height: 300px;
     width: 100%;
 }
-.con-sec3-list__color{
+.con-sec3-list--color{
     background-color: #f4f6f7;
 }
-.con-sec3-list li{
+.product-item-detail__list li{
    width: 100%;
    height: 20%;
    display: flex  ;
     align-items: center;
     justify-content: center;
 }
-.col-sec3-btn{
-    box-sizing: border-box;
+.product-item-detail__order{
+    /* box-sizing: border-box; */
     height: 100px;
     width: 100%;
-    display: flex  ;
+  
     flex-direction: column;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
-.col-sec3-btn button{
+.product-item-detail__order button{
     height: 35px;
     width: 30%;
     background-color: transparent;
@@ -121,21 +134,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    
 }
-.col-sec3-btn button:hover{
+.product-item-detail__order button:hover{
     background-color: #00bbd3;
     color: #fff;
 }
-.col-sec3-btn button:hover .order-text{
-    background-color: #00bbd3;
+.product-item-detail__order button:hover .order-text{
+    /* background-color: #00bbd3; */
     color: #fff;
 }
-.col-sec3-btn button:hover .triangle-sec3{
+/* .product-item-detail__order button:hover .triangle-sec3{
     
     border-left: 7px solid #fff;
-}
-.col-sec3-btn span + span{
+} */
+.product-item-detail__order span + span{
     margin-left: 5px;
 }
 .order-text{
@@ -145,9 +158,9 @@
     font-weight: 700;
     font-family: "Montserrat";
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
-.triangle-sec3{
+/* .triangle-sec3{
     box-sizing: border-box;
     height: 0;
     width: 0;
@@ -155,8 +168,8 @@
     border-right: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-top: 7px solid transparent;
-}
-.new-sec3{
+} */
+.new-product{
     position: absolute;
     height: 3rem;
     width: 3rem;
@@ -179,10 +192,6 @@
     font-size: 15px;
 }
 .font-mon{
-    font-size: 36px;
-    letter-spacing: 2px;
-    color: #00bcd4;
-    font-weight: 300;
     font-family: "Montserrat";
     text-align: center;
 }
@@ -193,6 +202,6 @@
     font-family: "Source Sans Pro";
     text-align: center;
 }
- .cl99a9b5{
+.product-item-info__price--color{
     color: #99a9b5;
 }

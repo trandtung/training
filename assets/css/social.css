@@ -1,0 +1,50 @@
+
+.menuSocials{
+    min-height: 100px;
+    background-color: #181828;
+}
+.menuSocials-wrap{
+    min-height: 100px;
+    margin: auto;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.menuSocials ul {
+    display: flex;
+}
+.menuSocials ul li a{
+    color: #99a9b5;
+    text-decoration: none;
+}
+.menuSocials ul li{
+    
+    padding: 0 21px;
+    position: relative;
+    cursor: pointer;
+}
+.menuSocials-row li+li:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    font-size: 0;
+    border-right: 1px solid #333146;
+}
+.menuSocials-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuSocials-row__cooperate {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menuSocials-row__cooperate  span
+{
+    margin-left: 20px;
+}

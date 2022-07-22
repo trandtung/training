@@ -1,15 +1,23 @@
+:root{
+	/*--color-pink : #FF64AE;*/
+	--color-pink : #FF64AE;
+	--color-00bcd4:#00bcd4;
+    --color-fff:#fff;
+}
+
 html{
     font-size: 100%;
 }
 li{
     list-style: none;
 }
+button{
+    cursor: pointer;
+}
 *{
     box-sizing: border-box;
 }
-.products *{
-    box-sizing: unset;
-}
+
 @font-face{
     font-family: Montserrat;
     src: url('/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2');
@@ -28,4 +36,71 @@ li{
 }
 .transition{
     transition: 0.5s linear;
+}
+.flex-align{
+    
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-col-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-col-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.displaynone{
+    display: none;
+}
+h1,h2,h2,h3,p{
+    margin: 0;;
+}
+ul{padding: 0;}
+.line-thought{
+    text-decoration: line-through;
+}
+
+.font-weight--s{
+    font-weight:100;
+}
+.font-weight--m{
+    font-weight: 700;
+}
+
+.mar-right-20{
+    margin-right: 15px;
+}
+.cl99a9b5{
+    color: #99a9b5;
+}
+
+h1,h2,h2,h3,p{
+    margin: 0;;
+}
+ul{padding: 0;}
+.line-thought{
+    text-decoration: line-through;
+}
+.products *{
+    box-sizing: unset;
 }
