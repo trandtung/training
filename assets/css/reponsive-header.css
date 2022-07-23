@@ -65,21 +65,15 @@
     #checkTap:checked ~ .Header__sidebar{
         display: block !important;
     }
-    /* .wheaderTopOption{
-        display: none;
-        width: 40%;
-        justify-content: space-around;
-    } */
+    
     .header-option .cart{
         display: flex;
         flex-direction: row !important;
     }
-    
     .wheaderTop-btn--border.--color--fff{
         color: black !important;
         border: 0;
     }
-    
     /* reponr footer */
     .menuSocials-row{
         display: flex;
@@ -118,10 +112,8 @@
 .Header__tog{
     display: none;
     position: relative;
-	/* background-color: #00bcd4; */
 	min-width: 50px;
 	height: 50px;
-	/* border: 1px solid var(--color-pink); */
 	border-radius: 5px;
 	cursor: pointer;
 }

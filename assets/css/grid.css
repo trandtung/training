@@ -141,7 +141,7 @@
     }
     
 }
-@media (max-width: 500px) {
+@media (max-width: 740px) {
     .c-o-1-ex {
         margin-left: 8.33333%;
     }
@@ -297,7 +297,7 @@
 }
 
 /* PC medium resolution > */
-@media (min-width: 1113px) {
+@media (min-width: 1200px) {
     .row {
         margin-left: -12px;
         margin-right: -12px;
@@ -458,9 +458,14 @@
         width: 644px;
     }
 }
-
+@media (min-width: 1025px) and (max-width: 1190px) {
+    .m-o-1ex{
+        margin-left: 8.33333%;
+    }
+}    
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1239px) {
+@media (min-width: 1025px) and (max-width: 1990px) {
+    
     .wide {
         width: 984px;
     }
@@ -613,4 +618,5 @@
     .wide .l-o-11 {
         margin-left: 91.66667%;
     }
+    
 }
