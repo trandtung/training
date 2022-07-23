@@ -1,5 +1,4 @@
 .adblock {
-  /* min-height: 600px; */
   background-color: #494b58;
   padding: 20px 0;
 }
@@ -7,9 +6,6 @@
   padding: 20px 0;
   max-width: 1200px;
   min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 .adblock-item__logo {
@@ -17,14 +13,10 @@
   min-height: 80px;
   border-radius: 50%;
   border: 6px solid #acab67;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .adblock-item__title {
   font-size: 4rem;
   letter-spacing: 5px;
-
   color: #ececed;
   font-weight: 300;
   font-family: "Montserrat";
@@ -42,7 +34,6 @@
   font-weight: 300;
   font-family: "Source Sans Pro";
 }
-
 .wrap-adblock-item--btn button {
   display: flex;
   justify-content: center;

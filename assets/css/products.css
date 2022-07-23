@@ -75,7 +75,7 @@
 }
 .product-item-detail__title--font {
   color: #00bcd4;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   font-family: "Montserrat";
 }
@@ -128,7 +128,6 @@
   font-family: "Montserrat";
   text-align: center;
 }
-
 .new-product {
   position: absolute;
   height: 3rem;

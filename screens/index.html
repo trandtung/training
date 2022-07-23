@@ -36,15 +36,17 @@
             <input type="checkbox" id="checkTap" />
             <label class="Header__sidebar" for="checkTap"> </label>
             <ul class="header-menu__about cursor-pointer">
-              <li>HOME</li>
-              <li class="header-menu__about--border --color--fff">PAGES</li>
-              <li>BLOG</li>
-              <li>PORTFOLIOS</li>
-              <li>SHOP</li>
-              <li>FEATURES</li>
-              <li>ELEMENTS</li>
-              <div class="header-option flex-between">
-                <li>
+              <li><a href="">HOME</a></li>
+              <li class="--color--fff">
+                <a class="header-menu__about--border" href="">PAGES</a>
+              </li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">PORTFOLIOS</a></li>
+              <li><a href="">SHOP</a></li>
+              <li><a href="">FEATURES</a></li>
+              <li><a href="">ELEMENTS</a></li>
+              <li class="header-option flex-row-around">
+                <a>
                   <svg
                     style="width: 19px; height: 13px; vertical-align: middle"
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,44 +70,48 @@
                       d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"
                     ></path>
                   </svg>
-                </li>
-                <li><i class="fa-solid fa-magnifying-glass"></i></li>
-
-                <li class="cart">
+                </a>
+                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a class="cart display-flex">
                   <i class="fa-solid fa-basket-shopping"></i>
                   <span class="triangle-left"></span> <span id="box">2</span>
-                </li>
-              </div>
+                </a>
+              </li>
             </ul>
             <label class="Header__tog" for="checkTap">
               <i class="fa-solid fa-bars"></i>
             </label>
           </div>
-
-          <div class="header-content flex-evenly">
-            <div class="header-content__icon">
-              <i class="fa-solid fa-ellipsis-vertical"></i>
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="header-content__title pad320">
-              <span class="font-weight--s">pricing</span>
-              <span class="font-weight--m">tables</span>
-            </div>
-            <div class="header-content__desc pad320">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea
-              </p>
-            </div>
-            <div class="header-content__btn pad320">
-              <button class="header-content__btn--color transition flex-center">
-                purchase now
-              </button>
-              <button class="header-content__btn--color transition flex-center">
-                more details
-              </button>
+          <div class="header-content flex-center">
+            <div class="tab-item active-tab flex-col-around">
+              <div class="header-content__icon flex-center">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="header-content__title pad320">
+                <span class="font-weight--s">pricing</span>
+                <span class="font-weight--m">tables</span>
+              </div>
+              <div class="header-content__desc pad320 flex-center">
+                <p class="header-content__desc--size">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea
+                </p>
+              </div>
+              <div class="header-content__btn pad320 flex-center">
+                <button
+                  class="header-content__btn--color transition flex-center"
+                >
+                  purchase now
+                </button>
+                <button
+                  class="header-content__btn--color transition flex-center"
+                >
+                  more details
+                </button>
+              </div>
             </div>
             <div class="pagination flex-between">
               <span class="dot cursor-pointer active-dot"> </span>
@@ -151,7 +157,6 @@
             </p>
           </div>
         </div>
-        <!-- 1 -->
         <div class="products flex-center">
           <div class="products-wrap flex-center grid wide">
             <div class="products-wrap-smail row m-10 c-10">
@@ -306,8 +311,8 @@
         </div>
       </div>
       <div class="adblock flex-center">
-        <div class="wrap-adblock-item m-10 c-10">
-          <div class="adblock-item__logo">
+        <div class="wrap-adblock-item flex-col-around m-10 c-10">
+          <div class="adblock-item__logo flex-center">
             <span>
               <i
                 class="fa-solid fa-font-awesome"
@@ -334,10 +339,12 @@
         </div>
       </div>
       <div class="footer">
-        <div class="widgets flex-center ">
+        <div class="widgets flex-center">
           <div class="widgets-wrap grid">
             <div class="widgets-wrap-item row">
-              <div class="widgets-column flex-between col l-3  m-5 m-o-1ex c-10 c-o-1">
+              <div
+                class="widgets-column flex-between col l-3 m-5 m-o-1ex c-10 c-o-1"
+              >
                 <div class="widgets-thegem">
                   <div class="widgets-thegem__logo">
                     <img
@@ -453,7 +460,9 @@
                   </ul>
                 </div>
               </div>
-              <div class="widgets-column flex-between col l-3 m-5 m-o-1ex c-10 c-o-1">
+              <div
+                class="widgets-column flex-between col l-3 m-5 m-o-1ex c-10 c-o-1"
+              >
                 <div class="widgets-contact flex1 input--thegem">
                   <div class="widgets-contact__title display-flex">
                     <h2>EMAIL US</h2>
@@ -485,7 +494,9 @@
                       placeholder="Your message"
                     />
                   </div>
-                  <button class="widgets-contact--heght-btn">SEND MESSAGE</button>
+                  <button class="widgets-contact--heght-btn">
+                    SEND MESSAGE
+                  </button>
                 </div>
                 <div class="wid-bottom">
                   <div class="display-flex">
@@ -513,7 +524,9 @@
                   </div>
                 </div>
               </div>
-              <div class="widgets-column flex-between col l-3 m-5 c-10 c-o-1-ex">
+              <div
+                class="widgets-column flex-between col l-3 m-5 c-10 c-o-1-ex"
+              >
                 <div class="widgets-feed flex1">
                   <div class="widgets-feed__title display-flex">
                     <h2>FLICKR / FEED</h2>
@@ -568,7 +581,7 @@
         </div>
         <div class="menuSocials">
           <div class="menuSocials-wrap grid wide">
-            <div class="menuSocials-row">
+            <div class="menuSocials-row flex-between ">
               <p class="menuSocials-row__copyright">
                 <span class="main-cl">@Copyright 2015</span>
                 <span>CoderThemes</span>
