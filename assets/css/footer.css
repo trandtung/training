@@ -53,7 +53,7 @@ li {
   color: #99a9b5;
   font-family: "Source Sans Pro";
 }
-.footer h2 {
+.footer .font-montserrat {
   color: #feffff;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -180,7 +180,6 @@ button {
   background-color: #394050;
   color: #99a9b5;
 }
-
 .footer input {
   color: #909fac;
   border: transparent;
