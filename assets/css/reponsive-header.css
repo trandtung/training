@@ -1,0 +1,127 @@
+#checkTap{
+	display: none;
+}
+/* header */
+@media (max-width: 1200px) {
+    #checkTap{
+        display: none;
+    }
+
+    .rh-0{
+        display: none !important;
+    }
+    .header-menu__about {
+        display: none;
+    }
+    .header-menu__about li{
+        display: none !important;
+    }
+    .header-menu__logo{
+        margin-left: 20px !important;
+        min-width: 180px;
+    }
+    .Header__tog{
+        display: block !important;
+        margin-right: 20px;  
+    }
+   
+    #checkTap:checked ~ .header-menu__about{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        height: 100%;
+        right: 0px;
+        width: 45%;
+        margin: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 110;
+        color: black;
+    }
+    #checkTap:checked ~ .header-menu__about :hover{
+        color: #00bcd4;
+    }
+    #checkTap:checked ~ .header-menu__about li{
+        
+        display: flex !important;
+        margin: 5px;
+        flex-direction: column;
+        color: black;
+        width: 40%;
+    }
+    .Header__sidebar{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 100;
+        display: none;
+        background-color: #0000007a;
+    
+    }
+    #checkTap:checked ~ .Header__sidebar{
+        display: block !important;
+    }
+    
+    .header-option .cart{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .wheaderTop-btn--border.--color--fff{
+        color: black !important;
+        border: 0;
+    }
+    /* reponr footer */
+    .menuSocials-row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .Header__tog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1024px) {
+    .header-content__btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content__btn button{
+        margin: 10px;
+    }
+    .wheaderTop{
+        display: flex;
+        justify-content: space-evenly;
+    }  
+} 
+@media (max-width: 700px) {
+    .wheaderBottom-title {
+        font-size: 3rem;
+    }
+}
+
+
+/* tog */
+.Header__tog{
+    display: none;
+    position: relative;
+	min-width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.Header__tog .fa-bars{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+

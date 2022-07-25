@@ -1,0 +1,41 @@
+.adblock {
+  background-color: #494b58;
+  padding: 20px 0;
+}
+.wrap-adblock-item {
+  padding: 20px 0;
+  max-width: 1200px;
+  min-height: 700px;
+  align-items: center;
+}
+.adblock-item__logo {
+  width: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  border: 6px solid #acab67;
+}
+.adblock-item__title {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  color: #ececed;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+.adblock-item__desc {
+  width: 90%;
+  text-align: center;
+}
+.adblock-item__desc--size {
+  font-size: 24px;
+  line-height: 37px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Source Sans Pro";
+}
+.adblock-item__btn {
+  color: #4dc3c9;
+}
+.adblock-item__btn .adblock-item__btn--color {
+  border: 2px solid #4dc3c9;
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tdtung</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/grid.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/reponsive-header.css" />
+    <link rel="stylesheet" href="../assets/css/description.css" />
+    <link rel="stylesheet" href="../assets/css/products.css" />
+    <link rel="stylesheet" href="../assets/css/adblock.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/social.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="wrap-header">
+          <div class="header-menu flex-evenly fl">
+            <div class="header-menu__logo">
+              <img src="../assets/image/Logo.png" alt="" />
+              <span class="">The gem</span>
+            </div>
+            <input type="checkbox" id="checkTap" />
+            <label class="Header__sidebar" for="checkTap"> </label>
+            <ul class="header-menu__about cursor-pointer">
+              <li><a href="">HOME</a></li>
+              <li class="--color--fff">
+                <a class="header-menu__about--border" href="">PAGES</a>
+              </li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">PORTFOLIOS</a></li>
+              <li><a href="">SHOP</a></li>
+              <li><a href="">FEATURES</a></li>
+              <li><a href="">ELEMENTS</a></li>
+              <li class="header-option flex-row-around">
+                <a>
+                  <svg
+                    style="width: 19px; height: 13px; vertical-align: middle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 480"
+                  >
+                    <path fill="#012169" d="M0 0h640v480H0z"></path>
+                    <path
+                      fill="#FFF"
+                      d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"
+                    ></path>
+                    <path
+                      fill="#C8102E"
+                      d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"
+                    ></path>
+                    <path
+                      fill="#FFF"
+                      d="M241 0v480h160V0H241zM0 160v160h640V160H0z"
+                    ></path>
+                    <path
+                      fill="#C8102E"
+                      d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"
+                    ></path>
+                  </svg>
+                </a>
+                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a class="cart display-flex">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                  <span class="triangle-left"></span> <span id="box">2</span>
+                </a>
+              </li>
+            </ul>
+            <label class="Header__tog" for="checkTap">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+          <div class="header-content flex-center">
+            <div class="tab-item active-tab flex-col-around">
+              <div class="header-content__icon flex-center">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="header-content__title pad320">
+                <span class="font-weight--s">pricing</span>
+                <span class="font-weight--m">tables</span>
+              </div>
+              <div class="header-content__desc pad320 flex-center">
+                <p class="header-content__desc--size">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea
+                </p>
+              </div>
+              <div class="header-content__btn pad320 flex-center">
+                <button
+                  class="header-content__btn--color transition flex-center"
+                >
+                  purchase now
+                </button>
+                <button
+                  class="header-content__btn--color transition flex-center"
+                >
+                  more details
+                </button>
+              </div>
+            </div>
+            <div class="pagination flex-between">
+              <span class="dot cursor-pointer active-dot"> </span>
+              <span class="dot cursor-pointer"> </span>
+              <span class="dot cursor-pointer"> </span>
+            </div>
+          </div>
+          <div class="arrow cursor-pointer">
+            <div class="arrow__left arrow-slide transition">
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="arrow__right arrow-slide transition">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="description">
+          <div class="wrap-description flex-evenly m-10 m-o-1 c-10 c-o-1">
+            <p class="wrap-description__title">
+              <span class="font-weight--s">Lorem</span>
+              <span class="font-weight--m">ipsum</span>
+            </p>
+            <p class="wrap-description__content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+              ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam
+              voluptatem quia voluptas sit aspernatur aut odit aut fugit
+            </p>
+          </div>
+        </div>
+        <div class="products flex-center">
+          <div class="products-wrap flex-center grid wide">
+            <div class="products-wrap-smail row m-10 c-10">
+              <div class="product-wrap-item transition col l-4-ex m-5 c-12">
+                <div class="product-item">
+                  <div class="product-item-info flex-center transition">
+                    <h2
+                      class="product-item-info--font uppercase font-montserrat"
+                    >
+                      beginner
+                    </h2>
+                    <div
+                      class="product-item-info__price font-price font-montserrat"
+                    >
+                      <span>$99</span>
+                      <span class="product-item-info__price--color"
+                        >Per month</span
+                      >
+                    </div>
+                  </div>
+                  <div class="product-item-detail">
+                    <div
+                      class="product-item-detail__title flex-center font-montserrat"
+                    >
+                      <h2 class="product-item-detail__title--font">
+                        Subtiitle goes here
+                      </h2>
+                      <p class="text-align-ct">
+                        Subtitle second line goes here lorem ipsum
+                      </p>
+                    </div>
+                    <ul class="product-item-detail__list">
+                      <li class="con-sec3-list--color line-thought">
+                        Drop out reman husle
+                      </li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list--color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list--color">Drop out reman husle</li>
+                    </ul>
+                    <div class="product-item-detail__order flex-center">
+                      <button class="transition">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span class="order-text transition">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-wrap-item transition col l-4-ex m-5 c-12">
+                <div class="product-item">
+                  <div class="product-item-info flex-center transition">
+                    <h2
+                      class="product-item-info--font uppercase font-montserrat"
+                    >
+                      beginner
+                    </h2>
+                    <div
+                      class="product-item-info__price font-price font-montserrat"
+                    >
+                      <span>$99</span>
+                      <span class="product-item-info__price--color"
+                        >Per month</span
+                      >
+                    </div>
+                    <p class="cl99a9b5">The best price,quality plan</p>
+                  </div>
+                  <div class="product-item-detail">
+                    <div
+                      class="product-item-detail__title flex-center font-montserrat"
+                    >
+                      <h2 class="product-item-detail__title--font">
+                        Subtiitle goes here
+                      </h2>
+                      <p class="text-align-ct">
+                        Subtitle second line goes here lorem ipsum
+                      </p>
+                    </div>
+                    <ul class="product-item-detail__list">
+                      <li class="con-sec3-list--color line-thought">
+                        Drop out reman husle
+                      </li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list--color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list--color">Drop out reman husle</li>
+                    </ul>
+                    <div class="product-item-detail__order flex-center">
+                      <button class="transition">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span class="order-text transition">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-wrap-item transition col l-4-ex m-5 c-12">
+                <div class="product-item">
+                  <div class="product-item-info flex-center transition">
+                    <span class="new-product">new</span>
+                    <h2
+                      class="product-item-info--font uppercase font-montserrat"
+                    >
+                      beginner
+                    </h2>
+                    <div
+                      class="product-item-info__price font-price font-montserrat"
+                    >
+                      <span>$99</span>
+                      <span class="product-item-info__price--color"
+                        >Per month</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="product-item-detail">
+                    <div
+                      class="product-item-detail__title flex-center font-montserrat"
+                    >
+                      <h2 class="product-item-detail__title--font">
+                        Subtiitle goes here
+                      </h2>
+                      <p class="text-align-ct">
+                        Subtitle second line goes here lorem ipsum
+                      </p>
+                    </div>
+                    <ul class="product-item-detail__list">
+                      <li class="con-sec3-list--color">Drop out reman husle</li>
+                      <li>Drop out reman husle sdasa sdJJ</li>
+                      <li class="con-sec3-list--color">
+                        Drop out reman husle fsfa
+                      </li>
+                      <li class="line-thought">
+                        Drop out reman husleffffffffffffz
+                      </li>
+                      <li class="con-sec3-list--color">Drop out reman husle</li>
+                    </ul>
+
+                    <div class="product-item-detail__order flex-center">
+                      <button class="transition">
+                        <span><i class="fa-solid fa-caret-right"></i></span>
+                        <span class="order-text transition">ORDER</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="adblock flex-center">
+        <div class="wrap-adblock-item flex-col-around m-10 c-10">
+          <div class="adblock-item__logo flex-center">
+            <span>
+              <i
+                class="fa-solid fa-font-awesome"
+                style="color: #acab67; font-size: 2rem"
+              ></i>
+            </span>
+          </div>
+          <div class="adblock-item__title font-montserrat row">
+            <p class="pad320">ad block</p>
+          </div>
+          <div class="adblock-item__desc col">
+            <p class="adblock-item__desc--size">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor,onsectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. incididunt ut labore
+              et dolore magna aliqua. onsectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.,Ut
+              enim ad minim vlum
+            </p>
+          </div>
+          <div class="adblock-item__btn header-content__btn pad320">
+            <button class="adblock-item__btn--color transition flex-center">
+              purchase now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="widgets flex-center">
+          <div class="widgets-wrap grid">
+            <div class="widgets-wrap-item row">
+              <div
+                class="widgets-column flex-between col l-3 m-5 m-o-1ex c-10 c-o-1"
+              >
+                <div class="widgets-thegem">
+                  <div class="widgets-thegem__logo">
+                    <img
+                      class="widgets-thegem__logo--size"
+                      src="../assets/image/Logo.png"
+                      alt=""
+                    />
+                    <div class="company">
+                      <p class="font-weight--s comp font-montserrat">The</p>
+                      <p class="font-weight--m comp font-montserrat">gem</p>
+                    </div>
+                  </div>
+                  <p class="widgets-thegem--fonttext">
+                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequat ipsum, nec sagittis sem nibh id elit. Duis sed od
+                  </p>
+                </div>
+                <div class="widgets-address flex1 border-bt">
+                  <div class="display-flex">
+                    <h2 class="footer--font-title font-montserrat">CONTACT</h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+                  <p><i class="fa-solid fa-location-dot"></i>Address</p>
+                  <p>
+                    New Hampshire Avenue Northwest #100, Washington, DC 20037,
+                    United States
+                  </p>
+                </div>
+                <ul class="widgets-support flex-col-between">
+                  <li>
+                    <i class="fa-solid fa-headphones mar-right-20"></i>Phone:
+                    12479846894
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-file-lines mar-right-20"></i>Fax:
+                    <span class="main-cl">13457789</span>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-envelope mar-right-20"></i>Email:
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-globe mar-right-20"></i>Website:
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="widgets-column flex-between col l-3 m-5 c-10 c-o-1-ex"
+              >
+                <div class="widget-posts">
+                  <div class="widget-posts__title display-flex">
+                    <h2 class="footer--font-title font-montserrat">
+                      RECENT POSTS
+                    </h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+
+                  <div class="recent-item flex-between">
+                    <div class="recent-item__cycle"></div>
+                    <div class="recent-item__desc">
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="flex-between main-cl">
+                        27 Dec 2015
+                        <span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>0</span></span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="recent-item flex-between">
+                    <div class="recent-item__cycle"></div>
+                    <div class="recent-item__desc">
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="flex-between">
+                        <span class="main-cl">27 Dec 2015 </span
+                        ><span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>12</span></span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="recent-item flex-between">
+                    <div class="recent-item__cycle"></div>
+                    <div class="recent-item__desc">
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet aenean...
+                      </p>
+                      <p class="flex-between">
+                        27 Dec 2015
+                        <span
+                          ><i class="fa-solid fa-comments"></i>
+                          <span>0</span></span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="useful-link wid-bottom flex-col-between">
+                  <div class="useful-link__title display-flex">
+                    <h2 class="footer--font-title font-montserrat">
+                      USEFUL LINKS
+                    </h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+                  <ul class="useful-link__list flex-col-between">
+                    <li class="main-cl">General Information For Users</li>
+                    <li>Interactive Fairy Tales</li>
+                    <li>Everyday Mathematics Links</li>
+                    <li>Interactive Fairy Tales</li>
+                    <li>Everyday Mathematics Links</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="widgets-column flex-between col l-3 m-5 m-o-1ex c-10 c-o-1"
+              >
+                <div class="widgets-contact flex1 input--thegem">
+                  <div class="widgets-contact__title display-flex">
+                    <h2 class="footer--font-title font-montserrat">EMAIL US</h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+                  <div class="input__icon">
+                    <input
+                      class="icon-input"
+                      type="text"
+                      placeholder="Your name"
+                      id="checking"
+                    /><span class="icon-mail"
+                      ><i class="fa-solid fa-user-graduate"></i
+                    ></span>
+                  </div>
+                  <div class="input__icon">
+                    <input
+                      class="icon-input"
+                      type="text"
+                      placeholder="Your email"
+                    /><span class="icon-mail"
+                      ><i class="fa-solid fa-envelope"></i
+                    ></span>
+                  </div>
+                  <div class="input__icon">
+                    <input
+                      class="input__icon--height-s icon-input"
+                      type="text"
+                      placeholder="Your message"
+                    />
+                  </div>
+                  <button class="widgets-contact--heght-btn">
+                    SEND MESSAGE
+                  </button>
+                </div>
+                <div class="wid-bottom">
+                  <div class="display-flex">
+                    <h2 class="footer--font-title font-montserrat">
+                      PROJECTS / CLIENTS
+                    </h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+                  <div class="widgets-wrap-col--contact flex1">
+                    <div class="multi-box">
+                      <div class="multi-box-row">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                      </div>
+                      <div class="multi-box-row">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                      </div>
+                      <div class="slide-bt flex-evenly">
+                        <span class="dot active-dot"> </span>
+                        <span class="dot"> </span>
+                        <span class="dot"> </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="widgets-column flex-between col l-3 m-5 c-10 c-o-1-ex"
+              >
+                <div class="widgets-feed flex1">
+                  <div class="widgets-feed__title display-flex">
+                    <h2 class="footer--font-title font-montserrat">
+                      FLICKR / FEED
+                    </h2>
+                    <div class="trig-bottomleft"></div>
+                  </div>
+                  <div class="widgets-feed__box-img multi-box">
+                    <div class="multi-box-row">
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                    </div>
+                    <div class="multi-box-row">
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                    </div>
+                    <div class="multi-box-row">
+                      <div class="box"></div>
+                      <div class="box"></div>
+                      <div class="box"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wid-bottom">
+                  <div class="newsletter flex-col-between">
+                    <div class="newsletter__title display-flex">
+                      <h2 class="footer--font-title font-montserrat">
+                        NEWLSETTER
+                      </h2>
+                      <div class="trig-bottomleft"></div>
+                    </div>
+                    <p class="newsletter__desc">
+                      Subscribe to our MailChimp newsletter and stay up to date
+                      with all events coming straight in your mailbox:
+                    </p>
+                    <div class="newsletter__email contact-email">
+                      <div class="input__icon">
+                        <input
+                          class="btn-mess icon-input"
+                          type="text"
+                          placeholder="Your email"
+                        />
+                      </div>
+                      <button><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <p class="newsletter__note">
+                      Personal information will be encrypted
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menuSocials">
+          <div class="menuSocials-wrap grid wide">
+            <div class="menuSocials-row flex-between">
+              <p class="menuSocials-row__copyright">
+                <span class="main-cl">@Copyright 2015</span>
+                <span>CoderThemes</span>
+              </p>
+              <ul class="menuSocials-row__support">
+                <li><a href="">Support</a></li>
+                <li><a href="">Contact US</a></li>
+                <li><a href="">DIsclaimer</a></li>
+                <li><a href="">Privercy Policy</a></li>
+              </ul>
+              <div class="menuSocials-row__cooperate">
+                <span><i class="fa-brands fa-twitter main-cl"></i></span>
+                <span><i class="fa-brands fa-facebook-f main-cl"></i></span>
+                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                <span><i class="fa-brands fa-glide-g"></i></span>
+                <span><i class="fa-solid fa-camera"></i></span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="scroll-arrowup">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </button>
+    </div>
+    <script src="../js/scroll.js"></script>
+  </body>
+</html>
