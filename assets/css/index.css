@@ -22,19 +22,19 @@ button {
 
 @font-face {
   font-family: Montserrat;
-  src: url("/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2");
+  src: url("../font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2");
 }
 @font-face {
   font-family: Montserrat1;
-  src: url("/assets/font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2");
+  src: url("../font-text/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2");
 }
 @font-face {
   font-family: Source Sans Pro;
-  src: url("/assets/font-text/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2");
+  src: url("../font-text/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2");
 }
 @font-face {
   font-family: Montserra3;
-  src: url("/assets/font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2");
+  src: url("../font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2");
 }
 .font-montserrat {
   font-family: "Montserrat",sans-serif;

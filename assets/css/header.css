@@ -93,13 +93,11 @@
   display: flex;
 }
 .header-content__title {
-  width: 90%;
-}
-.header-content__title {
   font-size: 70px;
   letter-spacing: 4px;
   color: #ffffff;
   font-weight: 100;
+  width: 100%;
   font-family: "Montserrat";
   text-align: center;
   text-transform: uppercase;
