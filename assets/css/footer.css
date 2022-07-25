@@ -51,15 +51,15 @@ li {
   font-size: 16px;
   line-height: 25px;
   color: #99a9b5;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
 }
-.footer .font-montserrat {
+
+.footer .footer--font-title {
   color: #feffff;
   margin-bottom: 20px;
   letter-spacing: 1px;
   line-height: 30px;
   font-weight: 700;
-  font-family: "Montserrat";
 }
 .border-bt {
   padding-bottom: 20px;
@@ -180,6 +180,7 @@ button {
   background-color: #394050;
   color: #99a9b5;
 }
+
 .footer input {
   color: #909fac;
   border: transparent;

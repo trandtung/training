@@ -36,6 +36,9 @@ button {
   font-family: Montserra3;
   src: url("/assets/font-text/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2");
 }
+.font-montserrat {
+  font-family: "Montserrat",sans-serif;
+}
 .transition {
   transition: 0.5s linear;
 }
