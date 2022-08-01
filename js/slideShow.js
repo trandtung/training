@@ -1,5 +1,4 @@
-const tabItem=$$('.slide1 .tab-item')
-const dotItem=$$('.slide1 .dot')
+
 function slideActive(plus,pointClick){
     let index= currentLocation()
     $('.tab-item.active-tab').classList.remove("active-tab");
@@ -33,6 +32,8 @@ function autoSlideShow(){
       }, 5000);
 }
 function slideShow(){
+    this.tabItem=$$('.slide1 .tab-item')
+    this.dotItem=$$('.slide1 .dot')
     handleClickActive()
     autoSlideShow()
     $('.arrow__right').onclick=()=>{
