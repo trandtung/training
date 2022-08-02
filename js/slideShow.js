@@ -1,4 +1,4 @@
-
+const arrColor=['red','blue','green']
 function slideActive(plus,pointClick){
     let index= currentLocation()
     $('.tab-item.active-tab').classList.remove("active-tab");
@@ -7,6 +7,7 @@ function slideActive(plus,pointClick){
     if (index === tabItem.length) index = 0;
     else if (index < 0) index = tabItem.length-1;
     else if (plus==0) index =pointClick;
+    tabItem[index].style.backgroundColor = arrColor[index]
     tabItem[index].classList.add('active-tab')
     dotItem[index].classList.add('active-dot')
     clearInterval(cleartimeout)
@@ -29,11 +30,12 @@ let currentLocation=()=>{
 function autoSlideShow(){
     cleartimeout=setInterval( () => {
         slideActive(1,0)
-      }, 5000);
+      }, delay);
 }
 function slideShow(){
     this.tabItem=$$('.slide1 .tab-item')
     this.dotItem=$$('.slide1 .dot')
+    this.delay=5000
     handleClickActive()
     autoSlideShow()
     $('.arrow__right').onclick=()=>{
