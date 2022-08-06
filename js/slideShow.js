@@ -1,7 +1,7 @@
 const arrColor=['red','blue','green']
 function slideActive(plus,pointClick){
     let index= currentLocation()
-    $('.tab-item.active-tab').classList.remove("active-tab");
+    $('.tab-slide.active-tab').classList.remove("active-tab");
     $('.dot.active-dot').classList.remove("active-dot");
     index+=plus
     if (index === tabItem.length) index = 0;
@@ -32,10 +32,10 @@ function autoSlideShow(){
         slideActive(1,0)
       }, delay);
 }
-function slideShow(){
-    this.tabItem=$$('.slide1 .tab-item')
-    this.dotItem=$$('.slide1 .dot')
-    this.delay=5000
+function slideShow(slide,delay){
+    this.tabItem=$$(`.${slide} .tab-slide`)
+    this.dotItem=$$(`.${slide} .dot`)
+    this.delay=delay
     handleClickActive()
     autoSlideShow()
     $('.arrow__right').onclick=()=>{
@@ -45,4 +45,6 @@ function slideShow(){
         slideActive(-1,0)
     }
 }
-slideShow()
+// slideShow('slide1',3000)
+
+// slideShow('slide2',3000)

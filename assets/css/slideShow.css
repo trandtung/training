@@ -1,0 +1,10 @@
+/* .myslide{
+    display: none;
+} */
+/* .myslide.active-tab{
+    display: flex;
+} */
+ 
+.active-dot {
+    background-color: #00bcd4;
+  }
