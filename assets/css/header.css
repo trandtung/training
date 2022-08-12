@@ -82,9 +82,7 @@
   min-height: 650px;
   margin: auto;
 }
-.tab-item {
-  min-height: 650px;
-}
+
 .header-content__icon {
   font-size: 10rem;
   color: #03b3ca;
@@ -197,3 +195,7 @@
   align-items: center;
   font-size: 0.8rem;
 }
+.tab-item{
+  min-height: 650px;
+}
+

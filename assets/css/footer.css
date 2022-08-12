@@ -197,10 +197,11 @@ button {
   outline: 1px solid #00bbd3;
 }
 .slide-bt {
+  margin-left: 50%;
   bottom: -20px;
-  left: 50%;
+  /* left: 50%; */
   transform: translateX(-50%);
-  position: absolute;
+  /* position: absolute; */
   height: 20px;
   width: 80px;
   display: flex;
@@ -217,7 +218,9 @@ button {
 .active-dot {
   background-color: #00bbd3 !important;
 }
-
+.tabs-social{
+  width: 280px;
+}
 /* sroll */
 .scroll-arrowup {
   position: fixed;

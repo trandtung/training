@@ -1,10 +1,14 @@
-/* .myslide{
-    display: none;
-} */
-/* .myslide.active-tab{
-    display: flex;
-} */
- 
 .active-dot {
-    background-color: #00bcd4;
-  }
+  background-color: #00bcd4;
+}
+.header-slide {
+  width: 100%;
+}
+.tab-slidemain {
+  display: flex;
+  transition: 1s;
+  /* transform: translateX(2000px); */
+}
+.myslide {
+  flex: 1 0 100%;
+}
