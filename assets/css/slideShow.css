@@ -7,7 +7,6 @@
 .tab-slidemain {
   display: flex;
   transition: 1s;
-  /* transform: translateX(2000px); */
 }
 .myslide {
   flex: 1 0 100%;
