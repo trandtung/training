@@ -12,7 +12,7 @@ import { logout } from "../../utils/apiRequest";
 import ChangePassword from "../../component/ChangePassword/ChangePassword";
 
 import Tippy from "@tippyjs/react/headless";
-import "tippy.js/dist/tippy.css"; // optional
+import "tippy.js/dist/tippy.css";
 
 import styles from "./Header.module.scss";
 import classNames from "classnames/bind";
@@ -42,7 +42,6 @@ function Header({ filter }) {
     dispatch(filterSlice.actions.changgSearchText(debonce));
   }, [debonce]);
 
-  //tippy change password
   const [visible, setVisible] = useState(false);
   const show = () => setVisible(true);
   const hide = () => setVisible(false);

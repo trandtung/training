@@ -1,12 +1,12 @@
 
 import { ApiClient } from "../request/request";
 import { loginFailed,loginStart,loginSuccess } from "../stores/slice/authSlice";
+import { removeAccessToken,handleStorageToken } from "./auth.util";
 export const loginUser=async(user,dispatch,navigate)=>{
     dispatch(loginStart());
     try{
         const res=await ApiClient.post('/auth/login', user)
-        localStorage.setItem('accessToken', res.data.token);
-        localStorage.setItem('id', res.data.id);
+        handleStorageToken(res.data.token,res.data.id)
         dispatch(loginSuccess(res.data))
         navigate("/")        
     }
@@ -16,7 +16,6 @@ export const loginUser=async(user,dispatch,navigate)=>{
 }
 
 export const logout = () => {
-    localStorage.removeItem('accessToken')
-    localStorage.removeItem('id')
+    removeAccessToken()
     window.location.href = '/sign-in';
   };

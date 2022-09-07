@@ -1,3 +1,4 @@
+
 @mixin flex-justify ($value) {
     display: flex;
     align-items: center;
@@ -12,8 +13,7 @@
     background-color: bisque;
     border-radius: 20px;
     padding: 0 5px;
-    margin: 15px 0;
-    
+    margin: 15px 0; 
     & .task-info{
         
         flex: 4;

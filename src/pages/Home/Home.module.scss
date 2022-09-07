@@ -12,7 +12,6 @@
         @include flex-center(space-around)
     }
 }
-
 .pagination{
     @include flex-center(center);
     & li{

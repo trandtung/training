@@ -1,11 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import Task from "../Task/Task";
+
+import { useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTask, updateTask } from "../../stores/slice/taskSlice";
 import { taskSelector } from "../../stores/selector";
-import { useState} from "react";
 import { searchTextSelector } from "../../stores/selector";
 
 import styles from "./Category.module.scss";
