@@ -1,8 +1,4 @@
-@mixin flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+@import './index';
 .wrap{
     background-color: aliceblue;
     width: 350px;
@@ -19,7 +15,7 @@
         height: 95%;
         & .category-name{
             height: 50px;
-            @include flex-center();
+            @include flex-justify(center);
             font-size: 2rem;
             font-weight: 700;
             &--update{
@@ -37,9 +33,9 @@
             }
         }
         & .category-createDay{
+            @include flex-justify(center);
             height: 100px;
             font-size: 1.5rem;
-            @include flex-center();
             & input{
                 height: 40px;
                 width: 85%;

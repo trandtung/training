@@ -32,8 +32,6 @@ const taskSlice = createSlice({
   },
 });
 
-//get param async ({limit, page, name}, { rejectWithValue })  neu ko co param _
-//post async (data, {rejectWithValue})
 export const getTasks = createAsyncThunk("cates/getTasks", async () => {
   const res = await ApiClient.get("/api/tasks");
   return res.data.items;

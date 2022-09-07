@@ -1,30 +1,25 @@
+@mixin flex-center($justify){
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    
+}
 .container{
-    // min-height: 100vh;
     & .wrap-categories{
         width: 1200px;
-        // height: 1000px;
         margin: auto;
         padding: 15px;
-        display: flex;
-        justify-content: space-between;
+        @include flex-center(space-around)
     }
 }
-.pagi{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 .pagination{
-    // width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center(center);
     & li{
         cursor: pointer;
         & button[disabled]{
-            // background-color: #cccccc;
             color: #666666;
+            // background-color: #cccccc;
             // cursor:text !important;
             // text-decoration: None !important; 
         }
@@ -39,11 +34,8 @@
 .page-item a{
     width: 30px;
     height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
-    // background-color:antiquewhite;
+    @include flex-center(center);
     cursor: pointer;
 }
 li{
