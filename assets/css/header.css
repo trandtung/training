@@ -3,8 +3,8 @@
   color: #fff;
 }
 .header {
-  width: 100vw;
-  min-height: 750px;
+  position: relative;
+  min-height: 550px;
   background-color: #2c2e3d;
 }
 .header-menu {
@@ -76,17 +76,13 @@
   color: #99a9b5;
   margin: 5px 0 5px 0;
 }
-/* bottom */
+/* slide-header */
 .header-content {
-  max-width: 1200px;
-  position: relative;
   flex-direction: column;
   min-height: 650px;
   margin: auto;
 }
-.tab-item {
-  min-height: 600px;
-}
+
 .header-content__icon {
   font-size: 10rem;
   color: #03b3ca;
@@ -117,7 +113,7 @@
   text-align: center;
 }
 .header-content__desc--size {
-  width: 90%;
+  width: 70%;
 }
 /*  */
 .arrow {
@@ -133,10 +129,10 @@
   top: 50%;
 }
 .arrow__left {
-  left: 0px;
+  left: 0;
 }
 .arrow__right {
-  right: 0px;
+  right: 0;
 }
 .arrow-slide:hover {
   background-color: var(--color-00bcd4);
@@ -146,7 +142,6 @@
   display: flex;
   margin-bottom: 50px;
 }
-
 .header-content__btn button {
   background-color: transparent;
   width: 13rem;
@@ -181,9 +176,6 @@
   outline-style: solid;
   outline-color: #fff;
 }
-.active-dot {
-  background-color: #00bcd4;
-}
 
 .triangle-left {
   margin-left: 5px;
@@ -203,3 +195,7 @@
   align-items: center;
   font-size: 0.8rem;
 }
+.tab-item{
+  min-height: 650px;
+}
+
